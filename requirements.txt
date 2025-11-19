@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+flask
+feedparser
+lxml
+pytest
+urllib3
