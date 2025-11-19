@@ -11,6 +11,12 @@ Unlike traditional RSS readers that require manual subscriptions, this engine **
 - **Infinite Scale**: Discovers hundreds to thousands of blogs depending on network depth
 - **Graph-Based Exploration**: Maps the entire blog ecosystem and their interconnections
 
+
+<img width="1584" height="920" alt="image" src="https://github.com/user-attachments/assets/909e5480-cd89-4cc0-8c77-a98abf503ec6" />
+
+
+<img width="1418" height="935" alt="image" src="https://github.com/user-attachments/assets/6dd207de-81be-4212-9b08-93a488148bf1" />
+
 ## Features
 
 - **Recursive Network Discovery**: Explores blog networks like Google crawls the web, following citations and references
