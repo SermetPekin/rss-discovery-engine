@@ -25,7 +25,7 @@ This project was inspired by the rich, interconnected blogosphere of academic an
 
 Special thanks to:
 
-- **[Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/)** - One of the seed blogs whose excellent blogroll and citation network helped bootstrap this discovery engine. Andrew's commitment to linking to interesting blogs and maintaining a curated reading list exemplifies the kind of network this tool is designed to explore.
+- **[Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/)** - The curated blogroll from Andrew's site served as a primary seed source for this discovery engine. The 63 initial seed blogs were predominantly sourced from his recommendations, which provided an excellent starting point due to their quality and interconnectedness. Andrew's commitment to maintaining a thoughtful reading list exemplifies the kind of network this tool is designed to explore and expand upon.
 
 - The broader **academic and independent blogging community** who maintain RSS feeds and blogrolls, keeping the decentralized web alive.
 
