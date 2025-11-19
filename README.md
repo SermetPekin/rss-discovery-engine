@@ -1,15 +1,14 @@
-# Recursive Blog Discovery Engine
+# RSS Discovery Engine
 
-An intelligent, self-expanding blog discovery system that maps interconnected blog networks through recursive exploration. Like Google's web crawler but optimized for RSS feeds and content discovery.
+A self-expanding blog discovery system that automatically finds new blogs by exploring network relationships. Start with a few seed blogs and watch it recursively discover hundreds more through link analysis.
 
-## 🌟 What Makes This Special
+## Key Features
 
-Unlike traditional RSS readers that require manual subscriptions, this engine **automatically discovers blogs** by exploring network relationships:
-
-- **Starts Small, Grows Exponentially**: Begin with curated seeds (e.g., 63 quality blogs)
-- **Self-Expanding Network**: Each blog analyzed reveals 10-20 new blogs through citation analysis
-- **Infinite Scale**: Discovers hundreds to thousands of blogs depending on network depth
-- **Graph-Based Exploration**: Maps the entire blog ecosystem and their interconnections
+- **Automated Discovery**: Finds blogs by analyzing posts and following citations
+- **Multiple Strategies**: Breadth-first, depth-first, random, or mixed exploration
+- **Smart Filtering**: TLD validation, platform detection, robots.txt compliance
+- **Network Visualization**: Interactive graph showing blog relationships
+- **Checkpoint Recovery**: Resume from interruptions
 
 
 <img width="1584" height="920" alt="image" src="https://github.com/user-attachments/assets/909e5480-cd89-4cc0-8c77-a98abf503ec6" />
