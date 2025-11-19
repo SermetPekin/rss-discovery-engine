@@ -6,6 +6,7 @@ Combined Blog Discovery Viewer - Posts + Network in One App
 from flask import Flask, render_template_string
 import json
 import os
+import argparse
 
 app = Flask(__name__)
 
@@ -616,10 +617,15 @@ def index():
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Combined Blog Discovery Viewer')
+    parser.add_argument('-p', '--port', type=int, default=5011, 
+                        help='Port number to run the server on (default: 5011)')
+    args = parser.parse_args()
+    
     print("=" * 80)
     print("✦ Combined Blog Discovery Viewer")
     print("=" * 80)
     data = load_data()
     print(f"\n📊 {data['total_blogs']} blogs loaded")
-    print(f"🌐 http://localhost:5011\n")
-    app.run(debug=False, host='0.0.0.0', port=5011)
+    print(f"🌐 http://localhost:{args.port}\n")
+    app.run(debug=False, host='0.0.0.0', port=args.port)

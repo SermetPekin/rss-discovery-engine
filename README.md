@@ -165,6 +165,8 @@ The crawler respects `robots.txt` directives and implements:
 - All content links back to the source
 - No commercial use or redistribution of content
 
+
+
 ### Disclaimer
 This software is provided for **educational and personal use only**. Users are responsible for:
 - Complying with applicable laws and regulations
@@ -174,9 +176,27 @@ This software is provided for **educational and personal use only**. Users are r
 
 Blog owners who wish to opt-out should use standard `robots.txt` directives, which this crawler respects.
 
+
+
+## Credits & Inspiration
+
+This project was inspired by the rich, interconnected blogosphere of academic and thoughtful writers who maintain curated blogrolls and link to each other's work.
+
+Special thanks to:
+
+- **[Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/)** - One of the seed blogs whose excellent blogroll and citation network helped bootstrap this discovery engine. Andrew's commitment to linking to interesting blogs and maintaining a curated reading list exemplifies the kind of network this tool is designed to explore.
+
+- The broader **academic and independent blogging community** who maintain RSS feeds and blogrolls, keeping the decentralized web alive.
+
+The concept of recursive network discovery was inspired by early web crawlers (like Google's PageRank) but adapted specifically for the blog ecosystem, treating RSS feeds and blogroll citations as the connective tissue of online intellectual communities.
+
+
+
 ## License
 
 MIT License - See LICENSE file for details.
+
+
 
 ## Contributing
 
