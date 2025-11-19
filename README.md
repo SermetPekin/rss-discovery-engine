@@ -17,6 +17,22 @@ Unlike traditional RSS readers that require manual subscriptions, this engine **
 
 <img width="1418" height="935" alt="image" src="https://github.com/user-attachments/assets/6dd207de-81be-4212-9b08-93a488148bf1" />
 
+
+
+## Credits & Inspiration
+
+This project was inspired by the rich, interconnected blogosphere of academic and thoughtful writers who maintain curated blogrolls and link to each other's work.
+
+Special thanks to:
+
+- **[Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/)** - One of the seed blogs whose excellent blogroll and citation network helped bootstrap this discovery engine. Andrew's commitment to linking to interesting blogs and maintaining a curated reading list exemplifies the kind of network this tool is designed to explore.
+
+- The broader **academic and independent blogging community** who maintain RSS feeds and blogrolls, keeping the decentralized web alive.
+
+The concept of recursive network discovery was inspired by early web crawlers (like Google's PageRank) but adapted specifically for the blog ecosystem, treating RSS feeds and blogroll citations as the connective tissue of online intellectual communities.
+
+
+
 ## Features
 
 - **Recursive Network Discovery**: Explores blog networks like Google crawls the web, following citations and references
@@ -181,20 +197,6 @@ This software is provided for **educational and personal use only**. Users are r
 - Not using this tool for commercial purposes without proper authorization
 
 Blog owners who wish to opt-out should use standard `robots.txt` directives, which this crawler respects.
-
-
-
-## Credits & Inspiration
-
-This project was inspired by the rich, interconnected blogosphere of academic and thoughtful writers who maintain curated blogrolls and link to each other's work.
-
-Special thanks to:
-
-- **[Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/)** - One of the seed blogs whose excellent blogroll and citation network helped bootstrap this discovery engine. Andrew's commitment to linking to interesting blogs and maintaining a curated reading list exemplifies the kind of network this tool is designed to explore.
-
-- The broader **academic and independent blogging community** who maintain RSS feeds and blogrolls, keeping the decentralized web alive.
-
-The concept of recursive network discovery was inspired by early web crawlers (like Google's PageRank) but adapted specifically for the blog ecosystem, treating RSS feeds and blogroll citations as the connective tissue of online intellectual communities.
 
 
 
