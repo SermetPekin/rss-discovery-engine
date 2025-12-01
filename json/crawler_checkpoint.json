@@ -1909,113 +1909,130 @@
         "source_post_title": "The Hidden Cost of the American Turkey",
         "source_post_link": "https://www.truthdig.com/articles/the-hidden-cost-of-the-american-turkey/?utm_source=rss&utm_medium=rss&utm_campaign=the-hidden-cost-of-the-american-turkey"
       }
-    }
-  },
-  "blogs_to_process": [
-    [
-      "https://www.world-nuclear-news.org",
-      {
+    },
+    "world-nuclear-news.org": {
+      "url": "https://www.world-nuclear-news.org",
+      "name": "World Nuclear News",
+      "feed_url": "https://www.world-nuclear-news.org/rss/",
+      "latest_post": {
+        "title": "Modular construction completed at Xudabao VVER-1200s",
+        "link": "https://www.world-nuclear-news.org//articles/modular-construction-completed-at-xudabao-vver-1200s",
+        "published": "2025-12-01T15:10:19",
+        "summary": "The final module of the passive water tank has been installed within the reactor building of unit 4 at the Xudabao nuclear power plant in China's Liaoning Province, China National Nuclear Corporation announced.",
+        "full_content": "The final module of the passive water tank has been installed within the reactor building of unit 4 at the Xudabao nuclear power plant in China's Liaoning Province, China National Nuclear Corporation announced.",
+        "raw_html": "The final module of the passive water tank has been installed within the reactor building of unit 4 at the Xudabao nuclear power plant in China's Liaoning Province, China National Nuclear Corporation announced.<br />\n&nbsp;"
+      },
+      "discovered_at": "2025-12-02T00:27:57.578966",
+      "depth": 3,
+      "discovered_from": {
         "source_blog": "https://ageoftransformation.org",
         "source_blog_name": "Age of Transformation",
         "source_post_title": "Why the Trump-Starmer \u2018Golden Age of Nuclear\u2019 Is Already Bankrupt",
-        "source_post_link": "https://ageoftransformation.org/why-the-trump-starmer-golden-age-of-nuclear-is-already-bankrupt/",
-        "parent_depth": 2
+        "source_post_link": "https://ageoftransformation.org/why-the-trump-starmer-golden-age-of-nuclear-is-already-bankrupt/"
       }
-    ],
-    [
-      "https://publicpolicy.googleblog.com",
-      {
-        "source_blog": "https://pluralistic.net",
-        "source_blog_name": "Pluralistic: Daily links from Cory Doctorow",
-        "source_post_title": "Pluralistic: The long game (20 Nov 2025)",
-        "source_post_link": "https://pluralistic.net/2025/11/20/if-you-wanted-to-get-there/",
-        "parent_depth": 2
-      }
-    ],
-    [
-      "https://cityoftempeaz.easyvotecampaignfinance.com",
-      {
-        "source_blog": "https://www.sharonlohr.com/blog",
-        "source_blog_name": "Blog - Sharon Lohr",
-        "source_post_title": "Data for Vote Decisions in a City Council Election",
-        "source_post_link": "https://www.sharonlohr.com/blog/2024/2/15/data-for-vote-decisions-in-a-city-council-election",
-        "parent_depth": 0
-      }
-    ],
-    [
-      "http://deevybee.blogspot.com/",
-      null
-    ],
-    [
-      "https://jemartisby.com",
-      {
-        "source_blog": "https://www.bookandsword.com/",
-        "source_blog_name": "Book and Sword",
-        "source_post_title": "Substack is a Greenhouse",
-        "source_post_link": "https://www.bookandsword.com/2025/11/02/substack-is-a-greenhouse/",
-        "parent_depth": 0
-      }
-    ],
-    [
-      "https://lasclev.org",
-      {
+    },
+    "deevybee.blogspot.com": {
+      "url": "http://deevybee.blogspot.com/",
+      "name": "BishopBlog",
+      "feed_url": "http://deevybee.blogspot.com/feeds/posts/default",
+      "latest_post": {
+        "title": "The dangers of using bibliometrics with polluted data",
+        "link": "http://deevybee.blogspot.com/2025/11/the-dangers-of-using-metrics-with.html",
+        "published": "2025-11-21T11:29:00",
+        "summary": "This week I attended a Webinar organised by Clarivate on the topic of \u201c Eugene Garfield Centenary Celebration: Past, Present and Future of Scientometrics \u201d. This covered the early history of the late Eugene Garfield\u2019s work as well as current developments and future trends. The historical sessions were fascinating, describing the remarkable innovations that Garfield made in his quest to understand the body of scientific information as a network. He realised that similarities between articles coul",
+        "full_content": "This week I attended a Webinar organised by Clarivate on the topic of \u201c Eugene Garfield Centenary Celebration: Past, Present and Future of Scientometrics \u201d. This covered the early history of the late Eugene Garfield\u2019s work as well as current developments and future trends. The historical sessions were fascinating, describing the remarkable innovations that Garfield made in his quest to understand the body of scientific information as a network. He realised that similarities between articles could be identified by shared citations, and, in the 1950s he devised systems for capturing this information using punched cards.  I am old enough to remember going to the library in the 1970s to consult Science Citation Index, which could not only point me to important articles in my field, but often led me in strange directions as I stumbled upon other fascinating topics. Garfield is known as the father of the Journal Impact Factor, which is regarded by many as an abomination that distorts publishing behaviour because of its connotations of prestige. It was, however, originally conceived as an index\u00a0that would help librarians decide which journals to purchase, and only later repurposed into a metric that people used as a proxy for the status of the researchers publishing in those journals. I enjoyed hearing about Garfield, who sounds like a delightful and humane polymath, who recognised the value of the information in indexes and found ingenious ways to synthesise it. I can recommend an archive of his work maintained by the University of Pennsylvania. The later speakers in the webinar focused on novel developments in the use of scientometrics to evaluate research quality. Giovanni Abramo noted how Italian science had been affected by favouritism, because of an exclusive reliance on subjective peer review to evaluate researchers and their institutions. His view is that use of metrics improves research evaluation by making it fairer and more objective. He noted that while metrics may not be an option in some areas of arts and humanities, for disciplines where outputs generally appear in indexed journals, bibliometrics were invaluable, concluding that \u201cbibliometrics are to research assessment what diagnostic imaging is to medicine\u201d- i.e. a key source of objective information. Funnily enough, I would have agreed with him 12 years ago, when I suggested a simple bibliometric index (departmental H-index ) could achieve very similar results to the complex and time-consuming peer review process adopted in the British Research Excellence Framework.  At the time I was writing, I thought that Goodhart\u2019s Law (\"When a measure becomes a target, it ceases to be a good measure\") wouldn\u2019t apply to a citation-based metric, because citations were not controlled by authors, so it would be difficult to game. It turns out I was na\u00efve. The crudest method of gaming is excessive self-citation, but there are also citation rings (you cite my paper and I\u2019ll cite yours).  This year Maria \u00c1ngeles Oviedo-Garc\u00eda, Ren\u00e9 Aquarius and I described a more sophisticated version, a \u201creview mill\u201d , where a group of Italian medics used positions as peer reviewers to coerce citations to work of the group.  We suggested that the change in Italian research evaluation, which had been implemented with the best of intentions, had led to cynical gaming of peer review.  One might respond by saying that this activity, though disturbing, affects only a tiny proportion of articles and so would not have a detectable effect.  Again, I would have agreed a decade ago.  But now, with an explosion in publications that seems driven by publishers who are more focused on income than quality (see Hanson et al, 2024 ), and extraordinarily lax editorial standards, \u00a0that may no longer be true. The key point about review mills is that we saw evidence of their activity because they used generic templates for peer reviews, but these can be detected only for journals that publish open peer review \u2013 a tiny minority.  The most prolific member of the review mill was a journal editor who had nearly 3000 verified peer reviews listed on Web of Science, only a handful of which we could access. So I fear that bibliometrics is more like a diagnostic image that has blurred together data from several patients - there is some valid information in there, but it's distorted by error. The final presentation by Valentin Bogorov described the future of Scientometrics, where AI would be harnessed to give much more fine-grained and nuanced information about societal impacts of research.  But I felt he was ignoring the elephant of fraud that had lumbered into the bibliometric databases.  Review mills are one issue for the validity of citation data, but paper mills are a much bigger problem. Whereas review mills rely on the self-organisation of dubious research groups to burnish their reputations, many paper mills are run by outside organisations whose sole motivation is financial profit ( Parker et al ., 2024).\u00a0They sell authorships and citations for a price that depends on the Impact Factor of the journal - Eugene Garfield would be turning in his grave.  They were first detected about 12 years ago but have multiplied like a virus and are seriously infecting whole bodies of research.  Sometimes they are first recognised when a researcher with subject-domain expertise finds anomalous or fraudulent articles when trying to review the field (see, e.g., Aquarius et al, 2025 ). Paper mills thrive in a warm, soggy environment, where corrupt or incompetent editors will wave through articles that contain clear breaches of scientific method, or even are evidently patched together from various plagiarised articles. The hope of publishers is that AI will provide ways to detect fraudulent papers and remove them before they enter the literature, but paper millers have proved skilled at mutating to evade detection. Unfortunately, the very areas where AI and big data seem to hold most promise, such as databases linking genes, proteins, molecules and biomarkers, already are contaminated. \u00a0The fear is that the papermillers will themselves increasingly use AI to create ever more plausible articles. I am not opposed to bibliometrics or AI in principle, but I find the optimism about its application to research evaluation concerning, especially since no mention was made of the problems that will emerge if the database interrogated by AI is polluted. Any method of evaluation will have costs, benefits and unforeseen consequences. My concern is that if we focus only on the benefits, we could end up with a system that encourages fraudsters and rewards those who are most skilled at gaming the system rather than the best scientists.",
+        "raw_html": "<p>&nbsp;</p>\n\nThis week I attended a Webinar organised by Clarivate on the topic of \u201c<a href=\"https://discover.clarivate.com/eugene_garfield\" target=\"_blank\">Eugene Garfield Centenary Celebration: Past, Present and Future of Scientometrics</a>\u201d. This covered the early history of the late Eugene Garfield\u2019s work as well as current developments and future trends. The historical sessions were fascinating, describing the remarkable innovations that Garfield made in his quest to understand the body of scientific information as a network. He realised that similarities between articles could be identified by shared citations, and, in the 1950s he devised systems for capturing this information using punched cards.  I am old enough to remember going to the library in the 1970s to consult Science Citation Index, which could not only point me to important articles in my field, but often led me in strange directions as I stumbled upon other fascinating topics.&nbsp;<div><br /></div><div>Garfield is known as the father of the Journal Impact Factor, which is regarded by many as an abomination that distorts publishing behaviour because of its connotations of prestige. It was, however, originally conceived as an index&nbsp;that would help librarians decide which journals to purchase, and only later repurposed into a metric that people used as a proxy for the status of the researchers publishing in those journals.&nbsp;</div><div><br /></div><div>I enjoyed hearing about Garfield, who sounds like a delightful and humane polymath, who recognised the value of the information in indexes and found ingenious ways to synthesise it. I can recommend an <a href=\"https://garfield.library.upenn.edu\" target=\"_blank\">archive of his work</a> maintained by the University of Pennsylvania.</div><div><br /></div><div>The later speakers in the webinar focused on novel developments in the use of scientometrics to evaluate research quality. Giovanni Abramo noted how Italian science had been affected by favouritism, because of an exclusive reliance on subjective peer review to evaluate researchers and their institutions. His view is that use of metrics improves research evaluation by making it fairer and more objective. He noted that while metrics may not be an option in some areas of arts and humanities, for disciplines where outputs generally appear in indexed journals, bibliometrics were invaluable, concluding that \u201cbibliometrics are to research assessment what diagnostic imaging is to medicine\u201d- i.e. a key source of objective information.&nbsp;</div><div><br /></div><div>Funnily enough, I would have agreed with him 12 years ago, when I suggested a simple bibliometric index <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2013/02/08/impact-factors-and-an-alternative-to-ref-2014/\" target=\"_blank\">(departmental H-index</a>) could achieve very similar results to the complex and time-consuming peer review process adopted in the British Research Excellence Framework.  At the time I was writing, I thought that Goodhart\u2019s Law (\"When a measure becomes a target, it ceases to be a good measure\") wouldn\u2019t apply to a citation-based metric, because citations were not controlled by authors, so it would be difficult to game.&nbsp;</div><div><br /></div><div>It turns out I was na\u00efve. The crudest method of gaming is excessive self-citation, but there are also citation rings (you cite my paper and I\u2019ll cite yours).  This year Maria \u00c1ngeles Oviedo-Garc\u00eda, Ren\u00e9 Aquarius and I described a more sophisticated version, a <a href=\"https://www.medrxiv.org/content/10.1101/2025.10.20.25338343v1\" target=\"_blank\">\u201creview mill\u201d</a>, where a group of Italian medics used positions as peer reviewers to coerce citations to work of the group.  We suggested that the change in Italian research evaluation, which had been implemented with the best of intentions, had led to cynical gaming of peer review.  One might respond by saying that this activity, though disturbing, affects only a tiny proportion of articles and so would not have a detectable effect.  Again, I would have agreed a decade ago.  But now, with an explosion in publications that seems driven by publishers who are more focused on income than quality (see <a href=\"https://doi.org/10.1162/qss_a_00327\" target=\"_blank\">Hanson et al, 2024</a>), and extraordinarily lax editorial standards, &nbsp;that may no longer be true. The key point about review mills is that we saw evidence of their activity because they used generic templates for peer reviews, but these can be detected only for journals that publish open peer review \u2013 a tiny minority.  The most prolific member of the review mill was a journal editor who had nearly 3000 verified peer reviews listed on Web of Science, only a handful of which we could access.&nbsp;</div><div><br /></div><div>So I fear that bibliometrics is more like a diagnostic image that has blurred together data from several patients - there is some valid information in there, but it's distorted by error.&nbsp;</div><div><br /></div><div>The final presentation by Valentin Bogorov described the future of Scientometrics, where AI would be harnessed to give much more fine-grained and nuanced information about societal impacts of research.  But I felt he was ignoring the elephant of fraud that had lumbered into the bibliometric databases.  Review mills are one issue for the validity of citation data, but paper mills are a much bigger problem. Whereas review mills rely on the self-organisation of dubious research groups to burnish their reputations, many paper mills are run by outside organisations whose sole motivation is financial profit (<a href=\"https://www.sciencedirect.com/science/article/pii/S0895435624003056\" target=\"_blank\">Parker et al</a>., 2024).&nbsp;They sell authorships and citations for a price that depends on the Impact Factor of the journal - Eugene Garfield would be turning in his grave.  They were <a href=\"https://www.science.org/doi/10.1126/science.342.6162.1035\" target=\"_blank\">first detected about 12 years ago</a> &nbsp;but have multiplied like a virus and are seriously infecting whole bodies of research.  Sometimes they are first recognised when a researcher with subject-domain expertise finds anomalous or fraudulent articles when trying to review the field (see, e.g., <a href=\"https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003438\" target=\"_blank\">Aquarius et al, 2025</a>).&nbsp;</div><div><br /></div><div>Paper mills thrive in a warm, soggy environment, where corrupt or incompetent editors will wave through articles that contain clear breaches of scientific method, or even are evidently patched together from various plagiarised articles. The hope of publishers is that AI will provide ways to detect fraudulent papers and remove them before they enter the literature, but paper millers have proved skilled at mutating to evade detection. Unfortunately, the very areas where AI and big data seem to hold most promise, such as databases linking genes, proteins, molecules and biomarkers, already are contaminated. &nbsp;The fear is that the papermillers will themselves increasingly use AI to create ever more plausible articles.&nbsp;</div><div><br /></div><div>I am not opposed to bibliometrics or AI in principle, but I find the optimism about its application to research evaluation concerning, especially since no mention was made of the problems that will emerge if the database interrogated by AI is polluted. Any method of evaluation will have costs, benefits and unforeseen consequences. My concern is that if we focus only on the benefits, we could end up with a system that encourages fraudsters and rewards those who are most skilled at gaming the system rather than the best scientists. &nbsp;</div>"
+      },
+      "discovered_at": "2025-12-02T00:28:23.207148",
+      "depth": 0,
+      "discovered_from": null
+    },
+    "lasclev.org": {
+      "url": "https://lasclev.org",
+      "name": "Legal Aid Society of Cleveland",
+      "feed_url": "https://lasclev.org/feed/",
+      "latest_post": {
+        "title": "City of Lorain Parking Ticket License Suspensions",
+        "link": "https://lasclev.org/lorain-parking-tickets/",
+        "published": "2025-11-25T22:00:15",
+        "summary": "Questions About Lorain Parking Ticket License Suspensions? Legal Aid Can Help. Today, The Marshall Project \u2013 Cleveland broke a news story about parking violations issued in the City of Lorain which led to driver\u2019s license suspensions and court fines and fees. Among other findings, The Marshall Project investigation uncovered that of the 10 largest cities in Ohio, Lorain is the only one that suspends driver\u2019s licenses for a single unpaid parking violation. Since November 2024, court records show ",
+        "full_content": "Questions About Lorain Parking Ticket License Suspensions? Legal Aid Can Help. Today, The Marshall Project \u2013 Cleveland broke a news story about parking violations issued in the City of Lorain which led to driver\u2019s license suspensions and court fines and fees. Among other findings, The Marshall Project investigation uncovered that of the 10 largest cities in Ohio, Lorain is the only one that suspends driver\u2019s licenses for a single unpaid parking violation. Since November 2024, court records show 1,155 citations were issued, and judges ordered 303 license suspensions.\u00a0 This investigation prompted city officials to pause the ticket-writing practice while they evaluate the program. Legal Aid is currently reviewing the situation and working to provide accurate information and tools to assist. Please check back\u2014additional resources and forms will be available shortly. Last updated November 25, 2025 The post City of Lorain Parking Ticket License Suspensions appeared first on Legal Aid Society of Cleveland .",
+        "raw_html": "<h3 class=\"xmsonormal\">Questions About Lorain Parking Ticket License Suspensions? Legal Aid Can Help.</h3>\n<hr />\n<p class=\"xmsonormal\">Today, <a href=\"https://www.themarshallproject.org/cleveland\">The Marshall Project &#8211; Cleveland</a> broke a news story about <a href=\"https://www.themarshallproject.org/2025/11/25/lorain-parking-tickets-suspensions\">parking violations issued in the City of Lorain</a> which led to driver&#8217;s license suspensions and court fines and fees.</p>\n<p>Among other findings, The Marshall Project investigation uncovered that of the 10 largest cities in Ohio, Lorain is the only one that suspends driver&#8217;s licenses for a single unpaid parking violation. Since November 2024, court records show 1,155 citations were issued, and judges ordered 303 license suspensions.\u00a0 This investigation prompted city officials to pause the ticket-writing practice while they evaluate the program.</p>\n<p class=\"xmsonormal\">Legal Aid is currently reviewing the situation and working to provide accurate information and tools to assist. Please check back\u2014additional resources and forms will be available shortly.</p>\n<hr />\n<p><em>Last updated November 25, 2025</em></p>\n<p>The post <a href=\"https://lasclev.org/lorain-parking-tickets/\">City of Lorain Parking Ticket License Suspensions</a> appeared first on <a href=\"https://lasclev.org\">Legal Aid Society of Cleveland</a>.</p>"
+      },
+      "discovered_at": "2025-12-02T00:28:59.007079",
+      "depth": 3,
+      "discovered_from": {
         "source_blog": "https://policyanalysislab.com",
         "source_blog_name": "Policy Analysis Lab",
         "source_post_title": "Analyzing Driver License Suspensions with R",
-        "source_post_link": "https://policyanalysislab.com/r/analyzing-driver-license-suspensions-with-r/",
-        "parent_depth": 2
+        "source_post_link": "https://policyanalysislab.com/r/analyzing-driver-license-suspensions-with-r/"
       }
-    ],
-    [
-      "https://hyperboleandahalf.blogspot.com",
-      {
+    },
+    "hyperboleandahalf.blogspot.com": {
+      "url": "https://hyperboleandahalf.blogspot.com",
+      "name": "Hyperbole and a Half",
+      "feed_url": "https://hyperboleandahalf.blogspot.com/feeds/posts/default",
+      "latest_post": {
+        "title": "Richard",
+        "link": "http://hyperboleandahalf.blogspot.com/2020/09/richard.html",
+        "published": "2020-09-21T03:30:00",
+        "summary": "(AUTHOR NOTE: My publisher told me I could post a chapter from the new book. There were 25 chapters to choose from, but I chose this one. Because I wanted to give you a love letter. And it seemed like the most appropriate love letter to give you would be an extremely indirect one that screams, \"DO NOT FEEL SCARED\u2014I AM JUST INTERACTING WITH YOU!!\") --------------------------------- For the first few years of my life, the only people I knew how to find lived in my house. We had a neighbor, Richard",
+        "full_content": "(AUTHOR NOTE: My publisher told me I could post a chapter from the new book. There were 25 chapters to choose from, but I chose this one. Because I wanted to give you a love letter. And it seemed like the most appropriate love letter to give you would be an extremely indirect one that screams, \"DO NOT FEEL SCARED\u2014I AM JUST INTERACTING WITH YOU!!\") --------------------------------- For the first few years of my life, the only people I knew how to find lived in my house. We had a neighbor, Richard. But Richard was quiet and rarely outside for long, so I didn't know about him. One afternoon, though, Richard went outside. That's how I found out about him. I did not interact with Richard. I just saw him. He probably didn't even know. He stood in his driveway for a minute or two and then went back into his house. But I saw him. I think that was the main thing. It was very exciting. A person lives next to us! A person! He lives right there! And I SAW him!\u00a0 When will he go outside again?\u00a0 What else does he do?\u00a0 Does he know about dad? Who is his friend?\u00a0 Does he like whales?\u00a0 Is his house the same as ours?\u00a0 Which room does his grandma live in? Desperate to catch another glimpse of him, I'd lurk near the windows all day just staring at his house. I think I expected it go somewhere. You can't find out there's a person living right next to you and then never get any answers. Maybe if you're 100 and you know everybody, but not if you're 3. Not when it's the first stranger you know how to find. I just wanted to know more. Anything. And this is as far as it would have been able to go if it wasn't for the dog door. My grandma usually supervised me while my parents were at work. She'd drink screwdrivers and do the crossword, I'd run around the house and do whatever. If she hadn't seen me in a while, she'd check to make sure I still had all my fingers, but escaping wasn't a big concern. The doors were locked. Just in case, there were jingle bells on the handles. The dog door was the single weak point in the fortress. The revolutionary impact the dog door had on my ability to observe Richard was second only to the discovery of Richard himself. I was cautious at first. I just wanted to get a little closer. Just a little. I'd sneak out through the dog door and go stare at his house from the edge of our driveway, hoping this would summon him. When it didn't, I'd sneak a little closer. Maybe it'll work if I stand in Richard's driveway\u2026. or, actually, maybe I'll just go over to this little window here and see what I can see\u2026 I started sneaking out more frequently. I started sneaking out at night. And the fact that I was sneaking seems to suggest I might've been at least partially aware that this type of behavior should be a secret, but I don't think I'd reached that crucial developmental turning point where you're capable of recognizing how creepy you're being. However, on the night I found the cat door in Richard's garage, even my undeveloped, fish-level brain could sense that a boundary was about to be crossed. A tiny, instinctual trace of doubt\u2014the wisdom of my ancestors whispering through the ages: This might be too weird of a thing to do\u2026 Of course, one of the main features of undeveloped, fish-level brains is poor impulse control, and before I could complete the thought, I was in Richard's living room. I hadn't prepared for this possibility. I'd dreamed of it, sure. But I wasn't expecting it to HAPPEN . So I just stood there for a little while and then retreated to regroup. A concrete objective never emerged, but the missions became bolder and more frequent. I started bringing things back with me. Richard's things. They seemed valuable, somehow. Richard likes these things\u2026. perhaps they contain the secret to Richard\u2026. A nonsensical collection of Richard's possessions slowly accumulated at the back of my toy drawer. This would prove to be my downfall. Long before that, though, my mom noticed that I'd mysteriously disappear sometimes. She wasn't worried yet because she didn't think I knew how to get out of the house, but one day she asked me where I'd been. And I said: \"Hanging out with Richard.\" \"Hanging out\" was a misnomer\u2014Richard had been hanging out by himself and I had been standing in his hallway just out of view\u2014but this was concerning news for my parents. They didn't even know that I knew Richard, let alone that we'd been \"hanging out.\" They went over and knocked on Richard's door and asked him about it, probably with thinly-veiled suspicion regarding Richard being a child predator. And Richard, who was still somehow unaware of all the hanging out we'd been doing, told them he didn't know anything about that. I imagine things were tense for a bit. The suggestion that I'd been hanging out with Richard was disturbing for both my parents and Richard. But the clues piled up. I couldn't control myself. I took more things, bigger things. I also branched over into hiding things for Richard to find. Pretty rocks, pieces of string, letters I'd tried to write. At that age, I didn't know how to spell very many words, so the messages were fairly cryptic: the entire alphabet, followed by the word Mom and a drawing of the sun. Rampant scribbling, hundreds of tiny circles, and... is this a spider?? The spider was supposed to be Richard. I hadn't figured out how many arms and legs people are supposed to have yet, so I just put a whole bunch on there and hoped it was enough. I didn't want him to feel offended because I shortchanged him on legs. It must've come off like being haunted by a defective but well-meaning ghost. The connection should have been obvious. But, when faced with a mystery like, \"Where did my remote control go? Why is there a piece of paper with a child's handwriting on it hiding in the VCR? And how do these rocks keep getting in here?\" almost no rational adult would jump to the conclusion \"because a child has been sneaking in through my cat door and leaving these for me to discover.\" Not even with clues. I don't know what theory Richard came up with to explain it, but it almost certainly wasn't that one. Similarly, when faced with a mystery like \"why does our child keep disappearing? And why has our child been \"hanging out\" with our 40-year-old neighbor?\" almost no rational adult would jump to the conclusion: \"because our child has become obsessed with our 40-year-old neighbor, and 'hanging out' is a loose term to describe the activity of spying.\" The thing that finally blew my cover was stealing Richard's cat. Stealing it wasn't the original plan. The opportunity presented itself, I seized it. It was a strong animal. Getting it into the drawer was difficult. I didn't have a plan for what to do with it, but I knew I had something valuable, and I think the thought process was that I should save it for later. For when I figured out how to capitalize on the probably unlimited potential of this. It lived in the drawer for a while.\u00a0I don't know how long. Hours, probably. And now it is time for a quick fact about cats: cats aren't good secrets, because, under extreme duress, they have the ability to make a sound like: YAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAO My parents eventually realized the sound was coming from inside the house and located the source of it. They weren't expecting to find quite so many of Richard's things. I don't know if they put the pieces together immediately, or processed them individually as they came up\u2014 \"first of all, there's a cat in this drawer; How about that. Next up: there appear to be a considerable number of objects under the cat. This one is a shoe. This one is a piece of bread. This one is a credit card bill. Huh\u2026it's addressed to 'Richard The Neighbor\u2026.'\" \u2014inching closer to the truth with every clue until the ultimate answer to \"What does 'hanging out with Richard' mean?\" was revealed. There was more than enough evidence to answer the question. That's got to be a strange moment for a parent. There's this omnipresent fear of predators and monsters, and you just\u2026 you never quite expect to find out the monster is your kid. They confronted me after a strategy meeting about how the fuck to handle this. That's not something the books prepare you for. There's no chapter on what to do if you suspect your child is a predator.\u00a0There's no Hallmark card for \"Sorry we accused you of being a molester; we didn't realize our kid was sneaking into your house and stealing your spoons and animals and watching you while you sleep. We're really, really sorry.\" That primal instinct I'd felt in Richard's garage flickered back online a little bit. Looking at the objects, and the freaked out cat, and my parents' confused faces, I realized that yeah, maybe this had been a weird thing to do.... I felt like I should explain why I had done this, but I didn't know either. So we all just stood there, feeling weird about ourselves and each other. The cat was stoked to be free, though. ------------------------------------------------------------------------------------------------------------- UPDATE: You guys have been asking about what happened after the story ended\u2014did my parents apologize to Richard? What did they say? What happened with the cat? I don't know exactly what my parents said in their apology, but I did my own apology later. Afterward, Richard gave me a stuffed rabbit as a peace offering. I named the rabbit \"Bigwig,\" and it was my favorite toy for a very long time (the pink rabbit that shows up in this post and a couple other places in the book is an homage to Bigwig). I'm still trying to find actual Bigwig (I do still have him), but in the meantime, here is a picture of me, my sister, and Bigwig (I believe that's Richard's house in the background): This was probably a year or two after the incident described in the story. And, as you can see, Bigwig was already showing signs of extreme wear and tear. I truly loved him. He went everywhere with me. While searching for photos of Bigwig, I also found this: I didn't draw the cat correctly (in my memory, it's an adult cat), but my mom's caption leads me to believe that this was, in fact, the cat I stole from Richard. Anyway, Richard was (and probably still is) a very kind man. If he somehow reads this and realizes it's him, I hope it makes him feel beautiful. I feel like this gets it across a little better than my early attempts, at least.",
+        "raw_html": "<p><i>(AUTHOR NOTE: My publisher told me I could post a chapter from the new book. There were 25 chapters to choose from, but I chose this one. Because I wanted to give you a love letter. And it seemed like the most appropriate love letter to give you would be an extremely indirect one that screams, \"DO NOT FEEL SCARED\u2014I AM JUST INTERACTING WITH YOU!!\")&nbsp;</i></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---------------------------------</p><p>For the first few years of my life, the only people I knew how to find lived in my house.</p><div class=\"p1\"><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwAFjYp7_irzrsA9OoCcGxOZBLGqXRf2BeUBYroQ641gHKZGHNFEcKQZrUJOYO65ai23QEZhOJ5Eoimpy1tZzELzFfo8qVcHTFMUg899GIGHnd6HF8Q50KyMoFryqtlav2XB8uwcFyCuk/s1600/RICHARD+41.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwAFjYp7_irzrsA9OoCcGxOZBLGqXRf2BeUBYroQ641gHKZGHNFEcKQZrUJOYO65ai23QEZhOJ5Eoimpy1tZzELzFfo8qVcHTFMUg899GIGHnd6HF8Q50KyMoFryqtlav2XB8uwcFyCuk/s640/RICHARD+41.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYs6ouA8w6GdNerOJGyZZp393O6cKGp40BgifIsQcOR-G4nRajTWnXVxWkQxQrqPpEoc2hRszQrNbXX6Cilz4On4AZa4tYJYA2NcVcu-vbYZa0I79mX-EXu0Dp9dTjKjfV0E58IUc6O3g/s1600/remote+mystery+houses+2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"256\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYs6ouA8w6GdNerOJGyZZp393O6cKGp40BgifIsQcOR-G4nRajTWnXVxWkQxQrqPpEoc2hRszQrNbXX6Cilz4On4AZa4tYJYA2NcVcu-vbYZa0I79mX-EXu0Dp9dTjKjfV0E58IUc6O3g/s640/remote+mystery+houses+2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHiwNHB8oeLfUOFeVbnZnsUog6p8JwDzVXdxm-z9YkNtVJ6TwUOywW27QV0t_Ef8CDiuansvEsIQzkKs5haw6_VdSYW-CPMDtRgkrdGA5ZYAJ0fARbWbnIXsjILUjwHNSsM_FWDs5RJOk/s1600/remote+mystery+houses.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"256\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHiwNHB8oeLfUOFeVbnZnsUog6p8JwDzVXdxm-z9YkNtVJ6TwUOywW27QV0t_Ef8CDiuansvEsIQzkKs5haw6_VdSYW-CPMDtRgkrdGA5ZYAJ0fARbWbnIXsjILUjwHNSsM_FWDs5RJOk/s640/remote+mystery+houses.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">We had a neighbor, Richard. But Richard was quiet and rarely outside for long, so I didn't know about him.<span class=\"Apple-converted-space\">&nbsp;</span></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">One afternoon, though, Richard went outside.</span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUr80UJICvIxIht7nW0TcwmywIzr60iIVnELNsjSRUpLzE8fajJZDNGoGVlbCTKqK4DqHfDGh_qTBpo3iQkQ2shnlNgLc3rFfcZiAB7RBRqGSWyrIvBO5dd0NEQCw8LQsxz5PcsU5bC4U/s1600/RICHARD+49.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUr80UJICvIxIht7nW0TcwmywIzr60iIVnELNsjSRUpLzE8fajJZDNGoGVlbCTKqK4DqHfDGh_qTBpo3iQkQ2shnlNgLc3rFfcZiAB7RBRqGSWyrIvBO5dd0NEQCw8LQsxz5PcsU5bC4U/s640/RICHARD+49.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">That's how I found out about him.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFX1jzqL3PBHgpCybLbNWtUkd3CA73F5kUHTYE0eSU712lfE9mwmKTC2cXBoWzphOgfgM_Ci1Bi5q0SbU-ZgTrmqatuUMEQr5xcS7PQqwC9pMC-VAFUITDz0eMjzaxI8w3809mIo3iiJ8/s1600/RICHARD+48alt2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFX1jzqL3PBHgpCybLbNWtUkd3CA73F5kUHTYE0eSU712lfE9mwmKTC2cXBoWzphOgfgM_Ci1Bi5q0SbU-ZgTrmqatuUMEQr5xcS7PQqwC9pMC-VAFUITDz0eMjzaxI8w3809mIo3iiJ8/s640/RICHARD+48alt2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP4kytqY0cRCbKsPSf90PUKcR3EWijmM2lEd0wKKRve54dQWz5WFK8mWsqMjuljAfSHTrqlk20H697DWrB_Oqq6eYUYc4yVhTKsOc9K-aFYovf85Ypyl7ZJkx4ioGmWfVbKNOAo2vbsfY/s1600/RICHARD+zoom+5.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"320\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP4kytqY0cRCbKsPSf90PUKcR3EWijmM2lEd0wKKRve54dQWz5WFK8mWsqMjuljAfSHTrqlk20H697DWrB_Oqq6eYUYc4yVhTKsOc9K-aFYovf85Ypyl7ZJkx4ioGmWfVbKNOAo2vbsfY/s640/RICHARD+zoom+5.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd91v8E3qemT9UhvvHi8IozdozsGY67t_9h-d2Dv26k3o7Gjv_qvXkb-bKJaPOb-n1_kuAWjUEAYmmSNHEwRuH1RUUA2H1_bP-nFcxherbE2rFk8jNeivr_1uMdt7ics8q3eFJlZ5m96E/s1600/RICHARD+46.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd91v8E3qemT9UhvvHi8IozdozsGY67t_9h-d2Dv26k3o7Gjv_qvXkb-bKJaPOb-n1_kuAWjUEAYmmSNHEwRuH1RUUA2H1_bP-nFcxherbE2rFk8jNeivr_1uMdt7ics8q3eFJlZ5m96E/s640/RICHARD+46.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0gzLKxZxl7HImc_7nZT66Rx0G16EIq_lemMgPq0KqmX-Ks8PlU-G2OWKTdolQ5hjLpLroZd5M0xdVLWIDgJoDpOCTCBEWW1z5_pKl4J5255HqGiz_HBgtIeuOQyQAnPXdGUIKSPqf2H8/s1600/RICHARD+zoom+1.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"320\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0gzLKxZxl7HImc_7nZT66Rx0G16EIq_lemMgPq0KqmX-Ks8PlU-G2OWKTdolQ5hjLpLroZd5M0xdVLWIDgJoDpOCTCBEWW1z5_pKl4J5255HqGiz_HBgtIeuOQyQAnPXdGUIKSPqf2H8/s640/RICHARD+zoom+1.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5J6VLkq0Br3kY7peundXcAEFuMDXQ_C9RArek-a_sxGGS-3NpCHlzH70qKealkPrq5RzlX8-qZyzCa-ufXUg6BoBXxk1HelotpZm47UiH6i16tCfcw9xOOSQBXzhL4lXNXz0KjbChS9E/s1600/RICHARD+46alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5J6VLkq0Br3kY7peundXcAEFuMDXQ_C9RArek-a_sxGGS-3NpCHlzH70qKealkPrq5RzlX8-qZyzCa-ufXUg6BoBXxk1HelotpZm47UiH6i16tCfcw9xOOSQBXzhL4lXNXz0KjbChS9E/s640/RICHARD+46alt.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">I did not interact with Richard. I just saw him. He probably didn't even know. He stood in his driveway for a minute or two and then went back into his house. But I saw him. I think that was the main thing.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1w6xdVjrL_Qt19jtTJ2OijFCLBtOFZATlIKQAj26G9A9x3BQGlesF-f7Q4g-t9csORLpMUEnDc3lwvO4yrmerXKjWWIGnYpKTPfRyTDlXBBSJp3f72HQ9e07uianCVDQAqx1YOGHQqmk/s1600/RICHARD+9alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1w6xdVjrL_Qt19jtTJ2OijFCLBtOFZATlIKQAj26G9A9x3BQGlesF-f7Q4g-t9csORLpMUEnDc3lwvO4yrmerXKjWWIGnYpKTPfRyTDlXBBSJp3f72HQ9e07uianCVDQAqx1YOGHQqmk/s640/RICHARD+9alt.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">It was very exciting. A person lives next to us!<span class=\"Apple-converted-space\">&nbsp;&nbsp;</span>A&nbsp;<i>person!</i><span class=\"Apple-converted-space\">&nbsp;&nbsp;</span>He lives right there! And I SAW him!&nbsp; When will he go outside again?&nbsp; What else does he do?&nbsp; Does he know about dad? Who is his friend?&nbsp; Does he like whales?&nbsp; Is his house the same as ours?&nbsp; Which room does his grandma live in?</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2qjw-JQ0MBne5VbxIYFKTZyVBJpy-wGF58LFWs4TWYg6IglV92usmAHvpR-UeRQPV2HNWVcCxZgfMQ6prPuOw0fQ9ZAGGgresfVSCLsSMBIoo_pw012EHu0OTXZRRmok-GHfVEIa-0HM/s1600/RICHARD+11.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2qjw-JQ0MBne5VbxIYFKTZyVBJpy-wGF58LFWs4TWYg6IglV92usmAHvpR-UeRQPV2HNWVcCxZgfMQ6prPuOw0fQ9ZAGGgresfVSCLsSMBIoo_pw012EHu0OTXZRRmok-GHfVEIa-0HM/s640/RICHARD+11.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrwoI-9HEWvYfWt3V8iew092vah5soqjQm_xGF2lzK9oWobpA5pcKM71Y3AH_WU1ywB1UnfW-Bltk6ifuj_I8aj73l5a12Oh3oO6yROdZinl1rDvcDn1i2bgen6W3R1IfUh9jVaNMoq2k/s1600/RICHARD+10.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrwoI-9HEWvYfWt3V8iew092vah5soqjQm_xGF2lzK9oWobpA5pcKM71Y3AH_WU1ywB1UnfW-Bltk6ifuj_I8aj73l5a12Oh3oO6yROdZinl1rDvcDn1i2bgen6W3R1IfUh9jVaNMoq2k/s640/RICHARD+10.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">Desperate to catch another glimpse of him, I'd lurk near the windows all day just staring at his house.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4r-FQtKAVsLXxvhyphenhyphenGfw9nbDBlZvZLKrvPkWKh3XGul6G28kgGM-A3Xdab9Cird5x4__73yD-oywqUFPm7_Xf9CvlxSFffcEKxmVooEgYSQmvDQf2pvBJhC24B4QxSQ6P9Hhr_myXf9U/s1600/RICHARD+20alt4.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4r-FQtKAVsLXxvhyphenhyphenGfw9nbDBlZvZLKrvPkWKh3XGul6G28kgGM-A3Xdab9Cird5x4__73yD-oywqUFPm7_Xf9CvlxSFffcEKxmVooEgYSQmvDQf2pvBJhC24B4QxSQ6P9Hhr_myXf9U/s640/RICHARD+20alt4.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">I think I expected it go somewhere. You can't find out there's a person living right next to you and then never get any answers. Maybe if you're 100 and you know everybody, but not if you're 3. Not when it's the first stranger you know how to find. I just wanted to know more. Anything.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUw9qmIgxGqXPU4ojlqvnRr2jrRzKH7Srp40Girf_FG_VfPVOXaqFWVUKVv89vmk2wEqvIiW5J6qzTs3GQ1EFjOKHsqy-NRKDput-Y6T5Y0hyphenhyphenCaEtMsZ8Yx7zCU3U9DCK7qCAwQBA4cDw/s1600/richard+zoom+2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUw9qmIgxGqXPU4ojlqvnRr2jrRzKH7Srp40Girf_FG_VfPVOXaqFWVUKVv89vmk2wEqvIiW5J6qzTs3GQ1EFjOKHsqy-NRKDput-Y6T5Y0hyphenhyphenCaEtMsZ8Yx7zCU3U9DCK7qCAwQBA4cDw/s640/richard+zoom+2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9rTOHZW844rFqEOLNWL48Xvi1cV1QVvWdtxiGI0rRYpVl-wiDQ6iKKRiXlLEimibWHhyphenhyphenRcP1p34szuFkZvMlSm5AG_g9Xh322O-Bbv5SVg0H7E4AWmycn96d0d7L9kpen23N0dCHgqE4/s1600/RICHARD+14.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9rTOHZW844rFqEOLNWL48Xvi1cV1QVvWdtxiGI0rRYpVl-wiDQ6iKKRiXlLEimibWHhyphenhyphenRcP1p34szuFkZvMlSm5AG_g9Xh322O-Bbv5SVg0H7E4AWmycn96d0d7L9kpen23N0dCHgqE4/s640/RICHARD+14.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig48glmVXWLZOS5ubkIaA6UC_Qnz4lMb5j3dMGxMgRx4dQcWESStGsY3K71Mh5JB5E0CqaTbj3NupCcDcih4r4IDWU27OKKD0KgBxdzWNN0MtDCD7SIBsBkELipjNsp9anyWwGOnRauHc/s1600/RICHARD+zoom+3.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"256\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig48glmVXWLZOS5ubkIaA6UC_Qnz4lMb5j3dMGxMgRx4dQcWESStGsY3K71Mh5JB5E0CqaTbj3NupCcDcih4r4IDWU27OKKD0KgBxdzWNN0MtDCD7SIBsBkELipjNsp9anyWwGOnRauHc/s640/RICHARD+zoom+3.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">And this is as far as it would have been able to go if it wasn't for the dog door.</span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsZx56HnyKgLFIJ6_1rJmfmVQoAoJe5m3Sim52uytuSZZfa7zwwRjefaHSB0PNLkfyNe8iI54yU6g97TwvjHO3IP1GLFWKBJb8ak-0yHi4RyuDFUMCRJnX5aODgHV9uuX3_vb7xP2j1Oc/s1600/RICHARD+31alt4.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsZx56HnyKgLFIJ6_1rJmfmVQoAoJe5m3Sim52uytuSZZfa7zwwRjefaHSB0PNLkfyNe8iI54yU6g97TwvjHO3IP1GLFWKBJb8ak-0yHi4RyuDFUMCRJnX5aODgHV9uuX3_vb7xP2j1Oc/s640/RICHARD+31alt4.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">My grandma usually supervised me while my parents were at work. She'd drink screwdrivers and do the crossword, I'd run around the house and do whatever. If she hadn't seen me in a while, she'd check to make sure I still had all my fingers, but escaping wasn't a big concern. The doors were locked. Just in case, there were jingle bells on the handles.<span class=\"Apple-converted-space\">&nbsp;</span></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">The dog door was the single weak point in the fortress.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5DzP7oUqe7DZE6cuP9v5cK1c4R58leDqqHNHvFCxaeFcZu72MJxKFs5SjnsQ5srnelHzHRw1Vb93w_QQXWOt12RcwDQ21hhO1RMlCPRaTerOx195y68w4yvrkB-FaIOrL7yjMyRxnGuQ/s1600/RICHARD+26.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5DzP7oUqe7DZE6cuP9v5cK1c4R58leDqqHNHvFCxaeFcZu72MJxKFs5SjnsQ5srnelHzHRw1Vb93w_QQXWOt12RcwDQ21hhO1RMlCPRaTerOx195y68w4yvrkB-FaIOrL7yjMyRxnGuQ/s640/RICHARD+26.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja03bjMLJFgiYum7TCDiFUeryy5bvDQ5bRbSX9W83-NsCyAy1OhUJIJIWXXL-dFH6d4IITfsdLUazKGUEK5r-9HQwbc8Z-lfT8hTetNewl2Qs-Rd5mtwiZ9q-ymqE5PhG-lWiZ9-x21jE/s1600/RICHARD+23alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja03bjMLJFgiYum7TCDiFUeryy5bvDQ5bRbSX9W83-NsCyAy1OhUJIJIWXXL-dFH6d4IITfsdLUazKGUEK5r-9HQwbc8Z-lfT8hTetNewl2Qs-Rd5mtwiZ9q-ymqE5PhG-lWiZ9-x21jE/s640/RICHARD+23alt.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRyb0x_6Sxm-3jU36iq7UsW_3o9MBjUuukoWulcXTTob4AJRRl7wRm7CtPunsxruZnVBHEKdRd9Ugay0tto2TypaEv3zWIcuXSRItJkURUqmEU53LR2tNPPXDCTni5aKLptfNM3_wcpuA/s1600/RICHARD+30.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRyb0x_6Sxm-3jU36iq7UsW_3o9MBjUuukoWulcXTTob4AJRRl7wRm7CtPunsxruZnVBHEKdRd9Ugay0tto2TypaEv3zWIcuXSRItJkURUqmEU53LR2tNPPXDCTni5aKLptfNM3_wcpuA/s640/RICHARD+30.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzetlBXxZqfxh-lcmkalbnm9nDeXe4-07sqfgv5epLE7eLHXaQtAnNxVjFbK9-n0-YWtG1fgxwJxx2hS7xis1-VhhzS4peBh-H1UJ0dT43jkEb8hhUDyUneELXbyXzQpusE3UHys_KToU/s1600/RICHARD+25.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzetlBXxZqfxh-lcmkalbnm9nDeXe4-07sqfgv5epLE7eLHXaQtAnNxVjFbK9-n0-YWtG1fgxwJxx2hS7xis1-VhhzS4peBh-H1UJ0dT43jkEb8hhUDyUneELXbyXzQpusE3UHys_KToU/s640/RICHARD+25.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh99uPb-cQ66bv0or37hNxfN0IUDhiYOYb0OEbdo32Vu-ynIFNrYI7tAK00fhbxwNBmG4JrhNUP2OeZ-QJB4NT_1_5OrXR9ksmBQGrxoEQJ0u4zx_EJFLlOWxyug4V2YmPkaSk0oS6chKY/s1600/window+zoom.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh99uPb-cQ66bv0or37hNxfN0IUDhiYOYb0OEbdo32Vu-ynIFNrYI7tAK00fhbxwNBmG4JrhNUP2OeZ-QJB4NT_1_5OrXR9ksmBQGrxoEQJ0u4zx_EJFLlOWxyug4V2YmPkaSk0oS6chKY/s640/window+zoom.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEJ6LY2WTOGrusGM6Q7pKi49M4cOQqTzSB2hp8Y9AgtF1h37Jkg7T_U9mop-WcxE_MCuYMEOy54WuuGIfEo1KC3FkSaTjcSDi8OpKO0IiHqCgl-rc9NIaP5tI4kfJLgNQ8UMbvHjXxOaw/s1600/RICHARD+24.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEJ6LY2WTOGrusGM6Q7pKi49M4cOQqTzSB2hp8Y9AgtF1h37Jkg7T_U9mop-WcxE_MCuYMEOy54WuuGIfEo1KC3FkSaTjcSDi8OpKO0IiHqCgl-rc9NIaP5tI4kfJLgNQ8UMbvHjXxOaw/s640/RICHARD+24.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-qIGs8W3CnAm3Ib4sXoq08PMFEMzh3S5TMr5CfFeqdnji2NXYGZevQqTJBv4xe10oLgCgUNewVR5nOgNvUytJbGxXBkSLt7cPhrYOziHN7NPPvKXQx8XpsliXPDmjpF8Fxdx2WuLysAU/s1600/door+zoom+2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"400\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-qIGs8W3CnAm3Ib4sXoq08PMFEMzh3S5TMr5CfFeqdnji2NXYGZevQqTJBv4xe10oLgCgUNewVR5nOgNvUytJbGxXBkSLt7cPhrYOziHN7NPPvKXQx8XpsliXPDmjpF8Fxdx2WuLysAU/s640/door+zoom+2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFVmthrT6NgTcjxdPxROYonyXDzFDOCmwSR9BCBMKG66SxuJmGgki1ss2j8iqZQtzurUvP-egrga_frA1-Sd8B2AIgNE81fGi0XmEBCxr26q0_9RmFs8RtMrKHjQLPJZ406lFRK3J9H1U/s1600/RICHARD+13alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFVmthrT6NgTcjxdPxROYonyXDzFDOCmwSR9BCBMKG66SxuJmGgki1ss2j8iqZQtzurUvP-egrga_frA1-Sd8B2AIgNE81fGi0XmEBCxr26q0_9RmFs8RtMrKHjQLPJZ406lFRK3J9H1U/s640/RICHARD+13alt.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">The revolutionary impact the dog door had on my ability to observe Richard was second only to the discovery of Richard himself. &nbsp;</span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">I was cautious at first.<span class=\"Apple-converted-space\">&nbsp;</span></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">I just wanted to get a little closer. Just a little. I'd sneak out through the dog door and go stare at his house from the edge of our driveway, hoping this would summon him. When it didn't, I'd sneak a little closer.&nbsp;<i>Maybe it'll work if I stand in&nbsp;</i>Richard's<i>&nbsp;driveway\u2026. or, actually, maybe I'll just go over to this little window here and see what I can see\u2026</i><span class=\"Apple-converted-space\" style=\"font-style: italic;\">&nbsp;</span></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgETuQiB_mRPvjIYTEhnfYYvqx3PsnL5_6wKPUEOasm2dw0sOkzX_wyvU5EpHBGDsTwCJBQw-wajfNVEDNV5LNE9G5ZPiR1f_ujEI719ocjBlRCECJ_c-B2KcklOURPHDhH1MwrbCXV00o/s1600/RICHARD+42.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgETuQiB_mRPvjIYTEhnfYYvqx3PsnL5_6wKPUEOasm2dw0sOkzX_wyvU5EpHBGDsTwCJBQw-wajfNVEDNV5LNE9G5ZPiR1f_ujEI719ocjBlRCECJ_c-B2KcklOURPHDhH1MwrbCXV00o/s640/RICHARD+42.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">I started sneaking out more frequently. I started sneaking out at night. And the fact that I was&nbsp;<i>sneaking</i>&nbsp;seems to suggest I might've been at least partially aware that this type of behavior should be a secret, but I don't think I'd reached that crucial developmental turning point where you're capable of recognizing how creepy you're being.<span class=\"Apple-converted-space\">&nbsp;</span></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">However, on the night I found the cat door in Richard's garage, even my undeveloped, fish-level brain could sense that a boundary was about to be crossed. A tiny, instinctual trace of doubt\u2014the wisdom of my ancestors whispering through the ages: <i>This might be too weird of a thing to do\u2026</i><span class=\"Apple-converted-space\">&nbsp;</span></span></div><div class=\"p1\"><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsLNCRn-kl6fYZqOQX_M1NoLeqv4Ficp9c2ShOoRZyjpy69uATIo6udI2AydAo3ZpjwqwyCnDoGMgW4L4g6DQ_F8UTtSFnEISkD4GLGp9o259targdcnAkYaLbQk80ZXK5IX9F0YjDVyo/s1600/RICHARD+43.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsLNCRn-kl6fYZqOQX_M1NoLeqv4Ficp9c2ShOoRZyjpy69uATIo6udI2AydAo3ZpjwqwyCnDoGMgW4L4g6DQ_F8UTtSFnEISkD4GLGp9o259targdcnAkYaLbQk80ZXK5IX9F0YjDVyo/s640/RICHARD+43.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguySjrDzFc-EEbQGezmnWxUvSp6H3_EEbQfSupIXF2VhSGCcQfIsPHChSfjweAfXtEpGnPLkueoX2rUXBORI-uHFragN5XXHeXZKYc6DuzoHz-OFjn0oIazUB3xxbAdRQogw-F8t68uBY/s1600/RICHARD+garage+zoomalt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguySjrDzFc-EEbQGezmnWxUvSp6H3_EEbQfSupIXF2VhSGCcQfIsPHChSfjweAfXtEpGnPLkueoX2rUXBORI-uHFragN5XXHeXZKYc6DuzoHz-OFjn0oIazUB3xxbAdRQogw-F8t68uBY/s640/RICHARD+garage+zoomalt.png\" width=\"640\" /></a></div></div><div class=\"p1\"><span class=\"s1\"><br /></span></div><div class=\"p1\"><span class=\"s1\">Of course, one of the main features of undeveloped, fish-level brains is poor impulse control, and before I could complete the thought, I was in Richard's living room.&nbsp;</span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBEG4QVOW7eVitkHbsG1pafQxrnId3PACkdjtJWE-9fzd7vbxQee-Jij0D0-aLDdigbvh0xsLlJfVEYWDEVMYGw6JuabcNtY2mx4ynpwNd7-KGqJb2UqGw4jgP_OtIXmMCm5xMUvsqSZY/s1600/richard%2527s+living+room+alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"400\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBEG4QVOW7eVitkHbsG1pafQxrnId3PACkdjtJWE-9fzd7vbxQee-Jij0D0-aLDdigbvh0xsLlJfVEYWDEVMYGw6JuabcNtY2mx4ynpwNd7-KGqJb2UqGw4jgP_OtIXmMCm5xMUvsqSZY/s640/richard%2527s+living+room+alt.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">I hadn't prepared for this possibility. I'd dreamed of it, sure. But I wasn't expecting it to&nbsp;<i>HAPPEN</i>. So I just stood there for a little while and then retreated to regroup.</span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz7NhotIewCIphsrQYfK9ex3jL4s_7l6gxnPRiAVe4Sevn34gmsTiC8RdT0F16wTHt0H-XVi3TMZTItdEkaXFO03zrPGwg8F_ZQhN16U4Cd5ufiVXzf_Gmz1eFiNOJjredQ_YuxHIhtwg/s1600/RICHARD+33.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz7NhotIewCIphsrQYfK9ex3jL4s_7l6gxnPRiAVe4Sevn34gmsTiC8RdT0F16wTHt0H-XVi3TMZTItdEkaXFO03zrPGwg8F_ZQhN16U4Cd5ufiVXzf_Gmz1eFiNOJjredQ_YuxHIhtwg/s640/RICHARD+33.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwd5nu4Z__cZa70HtqkRUYYHJlKN1lDNGUL_tHJ_gn-R09NJc9Y5LRysp67fEMdsvOwLYp4mw2h7U7XC1mHhhClOQ5ASk_TebC5dzLYxIst-rY-GFze2oXmnzD1gOdVuMmdv4QDTH95qU/s1600/RICHARD+33alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwd5nu4Z__cZa70HtqkRUYYHJlKN1lDNGUL_tHJ_gn-R09NJc9Y5LRysp67fEMdsvOwLYp4mw2h7U7XC1mHhhClOQ5ASk_TebC5dzLYxIst-rY-GFze2oXmnzD1gOdVuMmdv4QDTH95qU/s640/RICHARD+33alt.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZrkjDtcuSglRsoNQvajbGpH1xVcOKnq-eTPynpUWaPZJzQLDnVsZSukP92l6Wn5pcN-gimmGGYyjL08PCoIPqFKxUzkSCjQ7mpkC2s1IEIY4dgW0kNHP2ugqp6mkTAcEVrJWuFh1EzBU/s1600/richard%2527s+living+room+zoom+2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZrkjDtcuSglRsoNQvajbGpH1xVcOKnq-eTPynpUWaPZJzQLDnVsZSukP92l6Wn5pcN-gimmGGYyjL08PCoIPqFKxUzkSCjQ7mpkC2s1IEIY4dgW0kNHP2ugqp6mkTAcEVrJWuFh1EzBU/s640/richard%2527s+living+room+zoom+2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1x2DZzXHUnrv3N98Vr9J12BxtA13odimxp0gc37LCEIfKl6c3m0HqgosSfmCFQ_mcTaRVpEOjg5ziHt0gwdb40W7YVPtqq24A8Tg8PC8GmSuoVYKBG_O4Sk_rCmLFbvF7vfeZ1yCgAiI/s1600/richard%2527s+living+room+zoom+3.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"256\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1x2DZzXHUnrv3N98Vr9J12BxtA13odimxp0gc37LCEIfKl6c3m0HqgosSfmCFQ_mcTaRVpEOjg5ziHt0gwdb40W7YVPtqq24A8Tg8PC8GmSuoVYKBG_O4Sk_rCmLFbvF7vfeZ1yCgAiI/s640/richard%2527s+living+room+zoom+3.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQdWpNxQzdLlVG5vKkJsY7lvQAbassEKe7ELnUh9XweCxAlzpZKOxTw4FRjihgWC6hGDevla5juUhnH_eexhjIpCOhv6EG3wPxV0KCsoiqNEO8YeRe42aon5QjU3Y17LnUW11-Rj0XI-g/s1600/RICHARD+45.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQdWpNxQzdLlVG5vKkJsY7lvQAbassEKe7ELnUh9XweCxAlzpZKOxTw4FRjihgWC6hGDevla5juUhnH_eexhjIpCOhv6EG3wPxV0KCsoiqNEO8YeRe42aon5QjU3Y17LnUW11-Rj0XI-g/s640/RICHARD+45.png\" width=\"640\" /></a></div></div><div class=\"p1\"><br />A concrete objective never emerged, but the missions became bolder and more frequent. I started bringing things back with me. Richard's things.&nbsp;</div><div class=\"p2\"><span class=\"s1\"></span></div><div class=\"p1\"><span class=\"s1\"><br /></span></div><div class=\"p1\"><span class=\"s1\">They seemed valuable, somehow. Richard likes these things\u2026. perhaps they contain the secret to Richard\u2026.&nbsp;</span><br /><span class=\"s1\"><br /></span><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoeKYVBykM1Jx-ouGLvocMQPaYtJ_Ch1P8Fzk4w5nYo9icylTAN7aDM4hNyvdtzuPt6pVlOUQu1Kt3MEo0U5EsKLnX8E1Fn8j68DCZM7AlH-kyp6nfpU5qTQI-8mrv6OfPKqZHogy4Pg/s1600/RICHARD+35.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoeKYVBykM1Jx-ouGLvocMQPaYtJ_Ch1P8Fzk4w5nYo9icylTAN7aDM4hNyvdtzuPt6pVlOUQu1Kt3MEo0U5EsKLnX8E1Fn8j68DCZM7AlH-kyp6nfpU5qTQI-8mrv6OfPKqZHogy4Pg/s640/RICHARD+35.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">A nonsensical collection of Richard's possessions slowly accumulated at the back of my toy drawer.<span class=\"Apple-converted-space\">&nbsp;</span></span></div><div class=\"p2\"><span class=\"s1\"></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">This would prove to be my downfall.&nbsp;</span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">Long before that, though, my mom noticed that I'd mysteriously disappear sometimes. She wasn't worried yet because she didn't think I knew how to get out of the house, but one day she asked me where I'd been.&nbsp;</span><br /><span class=\"s1\"><br /></span><span class=\"s1\">And I said:&nbsp;</span><br /><span class=\"s1\"><br /></span><span class=\"s1\">\"Hanging out with Richard.\"</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8CK7h1dHg0uucBOg4N1CQDXu1NgGUHmFx0kensjYSWYgukCr1HlyT5rqgJ6OCaZAhEm3bTCbR8LeRNpnW2rMJQ34M-3ANfHtRMEcyK9wnU2xol_onWaYR-okeWLwGq8JdvlH-Iiy8TB0/s1600/RICHARD+58alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8CK7h1dHg0uucBOg4N1CQDXu1NgGUHmFx0kensjYSWYgukCr1HlyT5rqgJ6OCaZAhEm3bTCbR8LeRNpnW2rMJQ34M-3ANfHtRMEcyK9wnU2xol_onWaYR-okeWLwGq8JdvlH-Iiy8TB0/s640/RICHARD+58alt.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">\"Hanging out\" was a misnomer\u2014Richard had been hanging out by himself and I had been standing in his hallway just out of view\u2014but this was concerning news for my parents. They didn't even know that I knew Richard, let alone that we'd been \"hanging out.\" They went over and knocked on Richard's door and asked him about it, probably with thinly-veiled suspicion regarding Richard being a child predator. And Richard, who was still somehow unaware of all the hanging out we'd been doing, told them he didn't know anything about that.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRpZUs0wp8djjWdYPInhMOJYVCsXcgXnScX98YbfZeAi_UMcTqtv12NoiumQDEbcE0jySN5zA5UXvBfe1pVFRA7aNKb_4jFkjs0y7BWeHrxivwsRzeEwD6vV4QXhjrZ6c2dAdUBOtqMh8/s1600/RICHARD+51alt2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRpZUs0wp8djjWdYPInhMOJYVCsXcgXnScX98YbfZeAi_UMcTqtv12NoiumQDEbcE0jySN5zA5UXvBfe1pVFRA7aNKb_4jFkjs0y7BWeHrxivwsRzeEwD6vV4QXhjrZ6c2dAdUBOtqMh8/s640/RICHARD+51alt2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXyepubkb1j2o11AnlzvyrLDEg2fkbPJJGUlG5GbGRAIieRgDKUrroYfUE5WUlc8Cd1pbUfqS4QDbq5_zIvOeRd3V5o2ExdMrES39C8vrbgn8JPokVjxMpxw5VJCYYjPJci2NJvLtCM1o/s1600/RICHARD+53alt1.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXyepubkb1j2o11AnlzvyrLDEg2fkbPJJGUlG5GbGRAIieRgDKUrroYfUE5WUlc8Cd1pbUfqS4QDbq5_zIvOeRd3V5o2ExdMrES39C8vrbgn8JPokVjxMpxw5VJCYYjPJci2NJvLtCM1o/s640/RICHARD+53alt1.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6pHFxI2aR0eMAjXKvM4CbcXVxPT0sEaIBPCt7N0-NhZhj-2j7vU_63hkcSe4K5EuS8fl-95kccjAONi1rChyphenhyphenOifBIjGI4_vrUd5koSMJ8YQaDdR1HbD4gXB79DSqhkOAVKdNS9yPuXCU/s1600/RICHARD+51alt1.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6pHFxI2aR0eMAjXKvM4CbcXVxPT0sEaIBPCt7N0-NhZhj-2j7vU_63hkcSe4K5EuS8fl-95kccjAONi1rChyphenhyphenOifBIjGI4_vrUd5koSMJ8YQaDdR1HbD4gXB79DSqhkOAVKdNS9yPuXCU/s640/RICHARD+51alt1.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIidsp0El_FIhHuPm9d7e7qPxOzcDjwiGJOfODee-_u6DVXjzEvGl1mcHQF7Cp-dBWRlFECk5ivOHLQud7lOipjgCwLO33_dfy4QW5iRY6ndGC-CorsVAsm9nnco4_V3VEawzU2C-g8_c/s1600/mom+and+dad+zoom+1.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIidsp0El_FIhHuPm9d7e7qPxOzcDjwiGJOfODee-_u6DVXjzEvGl1mcHQF7Cp-dBWRlFECk5ivOHLQud7lOipjgCwLO33_dfy4QW5iRY6ndGC-CorsVAsm9nnco4_V3VEawzU2C-g8_c/s640/mom+and+dad+zoom+1.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkZ9ek8poz8XNNcYzTH_Kg4roCRjTfWqS6JObSeEk8yGdnETbwzNrEzLQeYzDDpbWAlOcni5shrVgq_X1f43xQRpgg7-D1zPQ-FQ2f9SyCIZVE4FiPDSuTmk1RFOHN3-vxzq1KO520dls/s1600/richard+zoom+4.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkZ9ek8poz8XNNcYzTH_Kg4roCRjTfWqS6JObSeEk8yGdnETbwzNrEzLQeYzDDpbWAlOcni5shrVgq_X1f43xQRpgg7-D1zPQ-FQ2f9SyCIZVE4FiPDSuTmk1RFOHN3-vxzq1KO520dls/s640/richard+zoom+4.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0y5Y3HhqG5DlNCaMp7iijgCJJ5e_gFqvxtkd7UTfLbqGVHPP0XKRlqnvPsMuedJEW__EkHWVPPGJdm4rSMepdTozP3TpYGW8qmEm0J3WZBFHmelYtot8Mg4jJORgxVALCPMq45S0N-M/s1600/RICHARD+52.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0y5Y3HhqG5DlNCaMp7iijgCJJ5e_gFqvxtkd7UTfLbqGVHPP0XKRlqnvPsMuedJEW__EkHWVPPGJdm4rSMepdTozP3TpYGW8qmEm0J3WZBFHmelYtot8Mg4jJORgxVALCPMq45S0N-M/s640/RICHARD+52.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">I imagine things were tense for a bit. The suggestion that I'd been hanging out with Richard was disturbing for both my parents and Richard. But the clues piled up. I couldn't control myself. I took more things, bigger things. I also branched over into hiding things for Richard to find. Pretty rocks, pieces of string, letters I'd tried to write. At that age, I didn't know how to spell very many words, so the messages were fairly cryptic:&nbsp;<i>the entire alphabet, followed by the word Mom and a drawing of the sun. Rampant scribbling, hundreds of tiny circles, and... is this a spider??</i>&nbsp;</span><br /><span class=\"s1\"><br /></span><span class=\"s1\">The spider was supposed to be Richard. I hadn't figured out how many arms and legs people are supposed to have yet, so I just put a whole bunch on there and hoped it was enough. I didn't want him to feel offended because I shortchanged him on legs.<span class=\"Apple-converted-space\">&nbsp;</span></span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDvxjiK27Jz8wRKdCQeAlGUq-TW11eKzvKhYwCHetADYxAnQDQX5HkGsrdFBCcfXy5lKoRXk5-R2ge4RQx8hHSiKOu1c7432DvPmKEZ6jLdhmBDk1oB8vDJoaU07BrcDkcG1MwQ6_pSA/s1600/RICHARD+57.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDvxjiK27Jz8wRKdCQeAlGUq-TW11eKzvKhYwCHetADYxAnQDQX5HkGsrdFBCcfXy5lKoRXk5-R2ge4RQx8hHSiKOu1c7432DvPmKEZ6jLdhmBDk1oB8vDJoaU07BrcDkcG1MwQ6_pSA/s640/RICHARD+57.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">It must've come off like being haunted by a defective but well-meaning ghost.&nbsp;</span><br /><span class=\"s1\"><br /></span><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirFcJNeEHKboe3KP9XldnOje8Nr4Dm-mcoUedv88nxTrZ63anwEVfC-YoltCHeilF2WovdHCf81rfGbZCubPqakIGRSFxWxAx5BRbw9_uQ5VgvuYeiVam65svmxGPE387IaOe2BQ_wz34/s1600/RICHARD+44.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirFcJNeEHKboe3KP9XldnOje8Nr4Dm-mcoUedv88nxTrZ63anwEVfC-YoltCHeilF2WovdHCf81rfGbZCubPqakIGRSFxWxAx5BRbw9_uQ5VgvuYeiVam65svmxGPE387IaOe2BQ_wz34/s640/RICHARD+44.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjHPkwFgEq3KIMBmzShyphenhyphenM7OZDOHWKRNX0UIsqfmyv9RjNzpAT-yF6BC1uA3AxOEeJS6brp8BEZWJyFlPv18HwLgNEc3vqlZ2KWkuymjCDI05LgnfUB12v_j-F6VxsgdhyphenhyphentOP_TM9TVXgc/s1600/RICHARD+55.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjHPkwFgEq3KIMBmzShyphenhyphenM7OZDOHWKRNX0UIsqfmyv9RjNzpAT-yF6BC1uA3AxOEeJS6brp8BEZWJyFlPv18HwLgNEc3vqlZ2KWkuymjCDI05LgnfUB12v_j-F6VxsgdhyphenhyphentOP_TM9TVXgc/s640/RICHARD+55.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">The connection should have been obvious. But, when faced with a mystery like, \"Where did my remote control go? Why is there a piece of paper with a child's handwriting on it hiding in the VCR? And how do these rocks keep getting in here?\" almost no rational adult would jump to the conclusion \"because a child has been sneaking in through my cat door and leaving these for me to discover.\" Not even with clues. I don't know what theory Richard came up with to explain it, but it almost certainly wasn't that one.&nbsp;</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaoNIy34gMB4nTge60Gqra1i7LUvCzxUQuFaT5kxS3pmhwKVorNXu350BHsEJy1oyqI4mjEXhJW1NIAGsaCvFylvh8rQTkzZgTJkywOlrQhaxqKrysu7o_4TqytS9YVC1tcidE3cvF1IY/s1600/RICHARD+56.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaoNIy34gMB4nTge60Gqra1i7LUvCzxUQuFaT5kxS3pmhwKVorNXu350BHsEJy1oyqI4mjEXhJW1NIAGsaCvFylvh8rQTkzZgTJkywOlrQhaxqKrysu7o_4TqytS9YVC1tcidE3cvF1IY/s640/RICHARD+56.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">Similarly, when faced with a mystery like \"why does our child keep disappearing? And why has our child been \"hanging out\" with our 40-year-old neighbor?\" almost no rational adult would jump to the conclusion: \"because our child has become obsessed with our 40-year-old neighbor, and 'hanging out' is a loose term to describe the activity of spying.\"</span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkU693HJCjY7qT1cbTYBu1QZVgGdQqBGNSyUdNxGVjYsKquBYNUA453n-2_SBqLUhvMIO79sDqGyqnvhaBJcvPpKI5f0hxZZFz6LPsM7t9m9P-wNJDSf9oopQL01u9i32w-VDW2B4zCQo/s1600/RICHARD+17.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkU693HJCjY7qT1cbTYBu1QZVgGdQqBGNSyUdNxGVjYsKquBYNUA453n-2_SBqLUhvMIO79sDqGyqnvhaBJcvPpKI5f0hxZZFz6LPsM7t9m9P-wNJDSf9oopQL01u9i32w-VDW2B4zCQo/s640/RICHARD+17.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span></div><div class=\"p1\"><br />The thing that finally blew my cover was stealing Richard's cat.<br /><br />Stealing it wasn't the original plan. The opportunity presented itself, I seized it.<span class=\"Apple-converted-space\">&nbsp;</span></div><div class=\"p1\"><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyHfZnZGmVrwBnvU9zmMEr3kp2tsse6UfLFHFRmPfrpmEVu4LMhxRrtUdT6yRNFlnri9nswqU0ErUHPBQu6mc2vj2vxKjBydrlZ0qu3b_ztIe1JZbbWmlOvKMTj3XftzAhE1DR2x96zIw/s1600/richard+cat+zoom.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"212\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyHfZnZGmVrwBnvU9zmMEr3kp2tsse6UfLFHFRmPfrpmEVu4LMhxRrtUdT6yRNFlnri9nswqU0ErUHPBQu6mc2vj2vxKjBydrlZ0qu3b_ztIe1JZbbWmlOvKMTj3XftzAhE1DR2x96zIw/s640/richard+cat+zoom.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjweKm6nyB7b81J1xoUv2H0kRH9RNosfT_DYmGfwb-CUjaTnPsNtzcFI0gszS7RXZzPOkHKe5jEz5ZaVj2RKHvjV2XSnGGZovP0fpfcDrVj7oHy_LnFr4uCk0JilVrBcNba7svioZwqmVc/s1600/RICHARD+35.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"160\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjweKm6nyB7b81J1xoUv2H0kRH9RNosfT_DYmGfwb-CUjaTnPsNtzcFI0gszS7RXZzPOkHKe5jEz5ZaVj2RKHvjV2XSnGGZovP0fpfcDrVj7oHy_LnFr4uCk0JilVrBcNba7svioZwqmVc/s640/RICHARD+35.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">It was a strong animal. Getting it into the drawer was difficult. I didn't have a plan for what to do with it, but I knew I had something valuable, and I think the thought process was that I should save it for later. For when I figured out how to capitalize on the probably unlimited potential of this.<span class=\"Apple-converted-space\">&nbsp;</span></span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi23oI3g_vhSjVE7SaGeh8YQmi8LmODtfKq62ZH6qlmakThzoxfDTVpv__XH98G2W0x0qMvKZ8bQNP6bUoG0Ir1Sw0unTuszfacfqLMMd1cGB78X1NWFTw_fwEFPz4rNWtAShAgTJc1R7M/s1600/RICHARD+60alt.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi23oI3g_vhSjVE7SaGeh8YQmi8LmODtfKq62ZH6qlmakThzoxfDTVpv__XH98G2W0x0qMvKZ8bQNP6bUoG0Ir1Sw0unTuszfacfqLMMd1cGB78X1NWFTw_fwEFPz4rNWtAShAgTJc1R7M/s640/RICHARD+60alt.png\" width=\"640\" /></a></div></div><div class=\"p2\"><span class=\"s1\"></span></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">It lived in the drawer for a while.&nbsp;I don't know how long. Hours, probably.</span><br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifBh1Yw2Px6VY3MQWuIqVqris85BnkMuCPk-OOgnn6tuOZe7bj3uYXcdMDEwzA88S9OJLvIXCptct8sMnMUNZCIHztZkjDf2mo550yOcJp1O3iAw1a34dSPjWeQ6qakWzbavGsjGs6AUQ/s1600/cat+drawer+zoom.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"320\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifBh1Yw2Px6VY3MQWuIqVqris85BnkMuCPk-OOgnn6tuOZe7bj3uYXcdMDEwzA88S9OJLvIXCptct8sMnMUNZCIHztZkjDf2mo550yOcJp1O3iAw1a34dSPjWeQ6qakWzbavGsjGs6AUQ/s640/cat+drawer+zoom.png\" width=\"640\" /></a></div><br />And now it is time for a quick fact about cats: cats aren't good secrets, because, under extreme duress, they have the ability to make a sound like:<br /><br /><i>YAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAO</i><br /><br />My parents eventually realized the sound was coming from inside the house and located the source of it.<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6T4OQi-gpBnfDLxa2aea9e97T84JOP5gwnKbkekFiArUkgNJVj24NH2VfcEYBYTEJG4_yk0eAZBCZop-Mcsg7uG3c9fdGPbZc7PfydecSI4M1lxBxvZHzjp50h-NOEk3ZMBDUzr686A/s1600/RICHARD+64alt2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"320\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy6T4OQi-gpBnfDLxa2aea9e97T84JOP5gwnKbkekFiArUkgNJVj24NH2VfcEYBYTEJG4_yk0eAZBCZop-Mcsg7uG3c9fdGPbZc7PfydecSI4M1lxBxvZHzjp50h-NOEk3ZMBDUzr686A/s640/RICHARD+64alt2.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></div><div class=\"p1\">They weren't expecting to find quite so many of Richard's things.<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH5WF8MEEhcwb5GpxQaOj2xzH32qLx3QA4lGbnaxjOFsvC1CTwWDIPthlYD5ksw_WMhNRRtWKEdpii0kANRDgD-LD3DhOhXwmzPVNVtD3a5JCXGtClL1ROpui12uii72eJc235AVdkDf4/s1600/RICHARD+62.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH5WF8MEEhcwb5GpxQaOj2xzH32qLx3QA4lGbnaxjOFsvC1CTwWDIPthlYD5ksw_WMhNRRtWKEdpii0kANRDgD-LD3DhOhXwmzPVNVtD3a5JCXGtClL1ROpui12uii72eJc235AVdkDf4/s640/RICHARD+62.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">I don't know if they put the pieces together immediately, or processed them individually as they came up\u2014<i>\"first of all, there's a cat in this drawer; How about that. Next up: there appear to be a considerable number of objects under the cat. This one is a shoe. This one is a piece of bread. This one is a credit card bill. Huh\u2026it's addressed to 'Richard The Neighbor\u2026.'\"</i>\u2014inching closer to the truth with every clue until the ultimate answer to \"What does 'hanging out with Richard' mean?\" was revealed.&nbsp;</span></div><div class=\"p1\"><span class=\"s1\"><br /></span></div><div class=\"p1\"><span class=\"s1\">There was more than enough evidence to answer the question.<span class=\"Apple-converted-space\">&nbsp;</span></span><br /><br /><div style=\"text-align: center;\"><span class=\"s1\"><span class=\"Apple-converted-space\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg5u-YQxLe09gKhRnMDOqjttPULUdSLBaMJMGQ6uoDZjkOfX8S0LEqme5AB3iaWZXA1nJq9tx1YBbmW11_Teb_jsHSIu62ybyKwT0OQiJHTIUFXtftdWa7gpeNzNV5VumgpZNr-L0HOY4/s1600/RICHARD+63.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg5u-YQxLe09gKhRnMDOqjttPULUdSLBaMJMGQ6uoDZjkOfX8S0LEqme5AB3iaWZXA1nJq9tx1YBbmW11_Teb_jsHSIu62ybyKwT0OQiJHTIUFXtftdWa7gpeNzNV5VumgpZNr-L0HOY4/s640/RICHARD+63.png\" width=\"640\" /></a></span></span></div></div><div class=\"p2\"><span class=\"s1\"></span><br /></div><div class=\"p1\"><span class=\"s1\">That's got to be a strange moment for a parent. There's this omnipresent fear of predators and monsters, and you just\u2026 you never quite expect to find out the monster is your kid.</span><br /><br />They confronted me after a strategy meeting about how the fuck to handle this. That's not something the books prepare you for. There's no chapter on what to do if you suspect your child is a predator.&nbsp;There's no Hallmark card for \"Sorry we accused you of being a molester; we didn't realize our kid was sneaking into your house and stealing your spoons and animals and watching you while you sleep. We're really, really sorry.\"<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuR2e_QzYExwumXBcNMepH_3xI1kxFU6CU2iNNULClhyRw34vcHYB00kAWh27zJtvABq9QhSnFnsiBJrH-C_nAGNqpf5Te1X-Kt-NgUOdqcOXI6ry_svS56OzOqmo0b9AyTS1m_cEpB78/s1600/RICHARD+65alt2.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuR2e_QzYExwumXBcNMepH_3xI1kxFU6CU2iNNULClhyRw34vcHYB00kAWh27zJtvABq9QhSnFnsiBJrH-C_nAGNqpf5Te1X-Kt-NgUOdqcOXI6ry_svS56OzOqmo0b9AyTS1m_cEpB78/s640/RICHARD+65alt2.png\" width=\"640\" /></a></div><br />That primal instinct I'd felt in Richard's garage flickered back online a little bit. Looking at the objects, and the freaked out cat, and my parents' confused faces, I realized that yeah, maybe this had been a weird thing to do....<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiExtbHFQW4HcHseuTy7pQBTBxK1lZv40p-cIBzfD-x1fUdhD1Mo1AUc6NxQKAH-aS-6033hA7xhf_BlQhyphenhyphenS8umbpxWThdshHKUEFpECE3VpbZAe4n5h49h9Ocm0NSCjmyYs6ypMAfx6Gs/s1600/RICHARD+66alt6.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiExtbHFQW4HcHseuTy7pQBTBxK1lZv40p-cIBzfD-x1fUdhD1Mo1AUc6NxQKAH-aS-6033hA7xhf_BlQhyphenhyphenS8umbpxWThdshHKUEFpECE3VpbZAe4n5h49h9Ocm0NSCjmyYs6ypMAfx6Gs/s640/RICHARD+66alt6.png\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div>I felt like I should explain why I had done this, but I didn't know either.<br /><br />So we all just stood there, feeling weird about ourselves and each other.<br /><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX02j1ASo1KBExZdRwH5AfIsT9At6APz-q8Q9Sk0WrJrioetK3bETZZjKURaXqmPwIajQfm_NFe5Fkc6rxJ-E3Lgy_04e1er34Swl7iRAKXEvePu_tyGjCwE0Zga7kMEuJsEFWQ7weCuU/s1600/RICHARD+67.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX02j1ASo1KBExZdRwH5AfIsT9At6APz-q8Q9Sk0WrJrioetK3bETZZjKURaXqmPwIajQfm_NFe5Fkc6rxJ-E3Lgy_04e1er34Swl7iRAKXEvePu_tyGjCwE0Zga7kMEuJsEFWQ7weCuU/s640/RICHARD+67.png\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div></div><div class=\"p1\"><span class=\"s1\">The cat was stoked to be free, though.<span class=\"Apple-converted-space\">&nbsp;</span></span><span class=\"s1\"><br /></span><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFj4urKukooUPddVow4JKrkvhUVf2aav9OgMl7AYstXU2BE70ex9SdzTF1UxybbLuVmYExmuOWeDdJ7uRiRJA0ggJpoRufTKmzQA0VkY-QhoPXwcxM5128c_vfcMehHgw7KbP-0FwIG2E/s1600/RICHARD+68.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"240\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFj4urKukooUPddVow4JKrkvhUVf2aav9OgMl7AYstXU2BE70ex9SdzTF1UxybbLuVmYExmuOWeDdJ7uRiRJA0ggJpoRufTKmzQA0VkY-QhoPXwcxM5128c_vfcMehHgw7KbP-0FwIG2E/s640/RICHARD+68.png\" width=\"640\" /></a></div><div><br /></div><div>-------------------------------------------------------------------------------------------------------------</div><div><b>UPDATE:</b> You guys have been asking about what happened after the story ended\u2014did my parents apologize to Richard? What did they say? What happened with the cat?&nbsp;</div><div><br /></div><div>I don't know exactly what my parents said in their apology, but I did my own apology later. Afterward, Richard gave me a stuffed rabbit as a peace offering. I named the rabbit \"Bigwig,\" and it was my favorite toy for a very long time (the pink rabbit that shows up in this post and a couple other places in the book is an homage to Bigwig).&nbsp;</div><div><br /></div><div>I'm still trying to find actual Bigwig (I do still have him), but in the meantime, here is a picture of me, my sister, and Bigwig (I believe that's Richard's house in the background):&nbsp;</div><div><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz6UG-pQGvU8YRvrgZUZzrCgDFrRbWd5G7VflkCk7BzVQKVse8TUkeccUy0ku-lvD2_CEQoJjLyK5ekXM3eGtXJkgmomo9R98Br_jh4XGcS7RqA2slzX9LgWoA5QB5aGH6g0xjbmpofro/s2048/IMG_0001.jpg\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"480\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz6UG-pQGvU8YRvrgZUZzrCgDFrRbWd5G7VflkCk7BzVQKVse8TUkeccUy0ku-lvD2_CEQoJjLyK5ekXM3eGtXJkgmomo9R98Br_jh4XGcS7RqA2slzX9LgWoA5QB5aGH6g0xjbmpofro/w640-h480/IMG_0001.jpg\" width=\"640\" /></a></div><div><br /></div><div>This was probably a year or two after the incident described in the story. And, as you can see, Bigwig was already showing signs of extreme wear and tear. I truly loved him. He went everywhere with me.&nbsp;</div><div><br /></div><div>While searching for photos of Bigwig, I also found this:&nbsp;</div><div><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLD9UT3RYGOfkWKBTM9bxpSEw3_VbR-pp3C-tnBznAdEP6NizCBdFhwZbpHBXJNPmwnbC4kZnVl8t7hoXPU7uk-Usme9CuoZuSNsHDIFylSZsf-TBHLbs7S3yMOHwN9pJOri42pBxFKE/s2048/IMG_0009.jpg\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"480\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLD9UT3RYGOfkWKBTM9bxpSEw3_VbR-pp3C-tnBznAdEP6NizCBdFhwZbpHBXJNPmwnbC4kZnVl8t7hoXPU7uk-Usme9CuoZuSNsHDIFylSZsf-TBHLbs7S3yMOHwN9pJOri42pBxFKE/w640-h480/IMG_0009.jpg\" width=\"640\" /></a></div><div style=\"text-align: center;\"><br /></div><div>I didn't draw the cat correctly (in my memory, it's an adult cat), but my mom's caption leads me to believe that this was, in fact, the cat I stole from Richard.&nbsp;</div><div><br /></div><div>Anyway, Richard was (and probably still is) a very kind man. If he somehow reads this and realizes it's him, I hope it makes him feel beautiful. I feel like this gets it across a little better than my early attempts, at least.&nbsp; &nbsp;</div><div><br /></div><div><br /></div><div><br /></div></div><div class=\"p2\"><span class=\"s1\"></span></div>"
+      },
+      "discovered_at": "2025-12-02T00:29:03.785810",
+      "depth": 3,
+      "discovered_from": {
         "source_blog": "https://pluralistic.net",
         "source_blog_name": "Pluralistic: Daily links from Cory Doctorow",
         "source_post_title": "Pluralistic: Disney lost Roger Rabbit (18 Nov 2025)",
-        "source_post_link": "https://pluralistic.net/2025/11/18/im-not-bad/",
-        "parent_depth": 2
+        "source_post_link": "https://pluralistic.net/2025/11/18/im-not-bad/"
       }
-    ],
-    [
-      "https://coe.gsa.gov",
-      {
+    },
+    "coe.gsa.gov": {
+      "url": "https://coe.gsa.gov",
+      "name": "GSA - IT Modernization Centers of Excellence",
+      "feed_url": "https://coe.gsa.gov/feed.xml",
+      "latest_post": {
+        "title": "Federal CX Summit to be Held Virtually November 16",
+        "link": "https://coe.gsa.gov/2023/11/02/cx-update-22.html",
+        "published": "2023-11-02T00:00:00",
+        "summary": "By the Customer Experience Center of Excellence The Customer Experience Center of Excellence (CX CoE) and 18F have partnered with the Customer Experience Community of Practice (CX CoP) to host an inaugural Federal CX Summit on November 16th, 2023 . This virtual event will focus on delivering impact to customers and building CX capacity in government. Speakers from across government will discuss the innovations, trends, and technologies that can be leveraged to enhance CX at federal agencies. Par",
+        "full_content": "By the Customer Experience Center of Excellence The Customer Experience Center of Excellence (CX CoE) and 18F have partnered with the Customer Experience Community of Practice (CX CoP) to host an inaugural Federal CX Summit on November 16th, 2023 . This virtual event will focus on delivering impact to customers and building CX capacity in government. Speakers from across government will discuss the innovations, trends, and technologies that can be leveraged to enhance CX at federal agencies. Participants will leave prepared to identify the challenges and barriers that prevent government agencies from providing a positive and effective customer experience and to explore ways to overcome these challenges. Schedule Registering will give participants access to the full day of programming listed below. However, participants are not required to attend all sessions. 10:40 AM - 10:50 AM Eastern: Opening Keynote Amira Boland, CX lead, Office of Management and Budget 10:50 AM - 11:30 AM Eastern: Panel, Developing a Voice of the Customer Program A\u2019ndrea Jones (moderator), Synergy Innovation Lab (iLab), Department of Housing and Urban Development Charlie Thomas, CX Administrator for Trademarks, U.S. Patent and Trademark Office Sylvie Williams, Transformation Officer, Department of Labor 11:40 AM - 12:05 PM Eastern: Reducing Administrative Burden Megan Moser, CX Center of Excellence, GSA Technology Transformation Services Yvette Jenkins, Division Director, IT Compliance & Governance, Department of Homeland Security 12:55 PM - 1:20 PM Eastern: Accessing Accessibility Aviva Oskow, Product Designer, 18F, General Services Administration 1:30 PM - 2:15 PM Eastern: Panel, Trauma Informed Design in Government Rachael Dietkus (moderator), United States Digital Service Gabby Fulco, The Lab Office of Personnel Managment Elyse Voegeli, 18F, GSA Technology Transformation Services Erika Lindsey and Gabby Fulco, The Lab at Office of Personnel Management Julie Strothman, Department of Veterans Affairs 2:30 PM - 2:55 PM Eastern: Usability Testing Everything Jon Rubin, Consumer Financial Protection Bureau 3:05 PM - 3:30 PM Eastern: Making Our Assumptions Visible: Using Data to Support Equitable Service Delivery Sam Powers, United States Digital Service 3:40 PM - 4:20 PM Eastern: Panel, CX Leadership on the Past, Present, and Future of CX in Government Amanda Damewood (moderator), Department of Homeland Security Courtney Kay-Decker, Deputy Chief Taxpayer Experience Officer, Internal Revenue Service Joel Nantais, CX Strategist, Consular Affairs, Department of State Dana Chisnell, Executive Director of CX, OCIO, Department of Homeland Security Andy Lewandowski, Digital Experience Advisor to the Federal CIO, Office of Management and Budget 4:20 PM - 4:30 PM Eastern: Closing Keynote Jennifer Rostami, Director, GSA Technology Transformation Services Consulting Register to Join Registration for the summit is required on Zoom . Attendance is open to all Federal employees with a .GOV or .MIL email address. Any Federal employee with an interest in advancing customer experience in government is also welcome to join the CX Community of Practice . Register on Zoom*",
+        "raw_html": "<p>By the Customer Experience Center of Excellence</p>\n\n<p><a href=\"https://coe.gsa.gov/images/CX-Summit-2023_Social.jpg\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"CX Summit: Delivering impact to customers and building CX capacity in government.\" src=\"https://coe.gsa.gov/images/CX-Summit-2023_Social.jpg\" /></a></p>\n\n<p>The Customer Experience Center of Excellence (CX CoE) and <a href=\"https://18f.gsa.gov/\">18F</a> have partnered with the <a href=\"https://coe.gsa.gov/communities/cx.html\">Customer Experience Community of Practice (CX CoP)</a> to host an inaugural <strong><a href=\"https://gsa.zoomgov.com/webinar/register/WN_1QdWhcYuR5mU7NZMHSkrAg#/registration\">Federal CX Summit</a> on November 16th, 2023</strong>. This virtual event will focus on delivering impact to customers and building CX capacity in government.</p>\n\n<p>Speakers from across government will discuss the innovations, trends, and technologies that can be leveraged to enhance CX at federal agencies. Participants will leave prepared to identify the challenges and barriers that prevent government agencies from providing a positive and effective customer experience and to explore ways to overcome these challenges.</p>\n\n<h2>Schedule</h2>\n<p>Registering will give participants access to the full day of programming listed below. However, participants are not required to attend all sessions.</p>\n\n<p><strong>10:40 AM - 10:50 AM Eastern: Opening Keynote</strong></p>\n<ul>\n  <li>Amira Boland, CX lead, Office of Management and Budget</li>\n</ul>\n\n<p><strong>10:50 AM - 11:30 AM Eastern: Panel, Developing a Voice of the Customer Program</strong></p>\n<ul>\n  <li>A\u2019ndrea Jones (moderator), Synergy Innovation Lab (iLab), Department of Housing and Urban Development</li>\n  <li>Charlie Thomas, CX Administrator for Trademarks, U.S. Patent and Trademark Office</li>\n  <li>Sylvie Williams, Transformation Officer, Department of Labor</li>\n</ul>\n\n<p><strong>11:40 AM - 12:05 PM Eastern: Reducing Administrative Burden</strong></p>\n<ul>\n  <li>Megan Moser, CX Center of Excellence, GSA Technology Transformation Services</li>\n  <li>Yvette Jenkins, Division Director, IT Compliance &amp; Governance, Department of Homeland Security</li>\n</ul>\n\n<p><strong>12:55 PM - 1:20 PM Eastern: Accessing Accessibility</strong></p>\n<ul>\n  <li>Aviva Oskow, Product Designer, 18F, General Services Administration</li>\n</ul>\n\n<p><strong>1:30 PM - 2:15 PM Eastern: Panel, Trauma Informed Design in Government</strong></p>\n<ul>\n  <li>Rachael Dietkus (moderator), United States Digital Service</li>\n  <li>Gabby Fulco, The Lab Office of Personnel Managment</li>\n  <li>Elyse Voegeli, 18F, GSA Technology Transformation Services</li>\n  <li>Erika Lindsey and Gabby Fulco, The Lab at Office of Personnel Management</li>\n  <li>Julie Strothman, Department of Veterans Affairs</li>\n</ul>\n\n<p><strong>2:30 PM - 2:55 PM Eastern: Usability Testing Everything</strong></p>\n<ul>\n  <li>Jon Rubin, Consumer Financial Protection Bureau</li>\n</ul>\n\n<p><strong>3:05 PM - 3:30 PM Eastern: Making Our Assumptions Visible: Using Data to Support Equitable Service Delivery</strong></p>\n<ul>\n  <li>Sam Powers, United States Digital Service</li>\n</ul>\n\n<p><strong>3:40 PM - 4:20 PM Eastern: Panel, CX Leadership on the Past, Present, and Future of CX in Government</strong></p>\n<ul>\n  <li>Amanda Damewood (moderator), Department of Homeland Security</li>\n  <li>Courtney Kay-Decker, Deputy Chief Taxpayer Experience Officer, Internal Revenue Service</li>\n  <li>Joel Nantais, CX Strategist, Consular Affairs, Department of State</li>\n  <li>Dana Chisnell, Executive Director of CX, OCIO, Department of Homeland Security</li>\n  <li>Andy Lewandowski, Digital Experience Advisor to the Federal CIO, Office of Management and Budget</li>\n</ul>\n\n<p><strong>4:20 PM - 4:30 PM Eastern: Closing Keynote</strong></p>\n<ul>\n  <li>Jennifer Rostami, Director, GSA Technology Transformation Services Consulting</li>\n</ul>\n\n<h2>Register to Join</h2>\n<p><strong>Registration for the summit is required on Zoom</strong>. Attendance is open to all Federal employees with a .GOV or .MIL email address. Any Federal employee with an interest in advancing customer experience in government is also welcome to join the <a href=\"https://coe.gsa.gov/communities/cx.html#join-cop\">CX Community of Practice</a>.</p>\n\n<p><a class=\"usa-button\" href=\"https://gsa.zoomgov.com/webinar/register/WN_1QdWhcYuR5mU7NZMHSkrAg#/registration\">Register on Zoom*</a></p>"
+      },
+      "discovered_at": "2025-12-02T00:29:24.454770",
+      "depth": 1,
+      "discovered_from": {
         "source_blog": "https://www.sharonlohr.com/blog",
         "source_blog_name": "Blog - Sharon Lohr",
         "source_post_title": "How AI Created a Nonexistent Statistician",
-        "source_post_link": "https://www.sharonlohr.com/blog/2024/9/22/how-ai-created-a-nonexistent-statistician",
-        "parent_depth": 0
+        "source_post_link": "https://www.sharonlohr.com/blog/2024/9/22/how-ai-created-a-nonexistent-statistician"
       }
-    ],
-    [
-      "https://benjamindreyer.substack.com",
-      {
+    },
+    "benjamindreyer.substack.com": {
+      "url": "https://benjamindreyer.substack.com",
+      "name": "A Word About...",
+      "feed_url": "https://benjamindreyer.substack.com/feed",
+      "latest_post": {
+        "title": "We shed as we pick up.",
+        "link": "https://benjamindreyer.substack.com/p/we-shed-as-we-pick-up",
+        "published": "2025-11-29T17:45:20",
+        "summary": "\u201cOh, Septimus!\u2014can you bear it? All the lost plays of the Athenians! Two hundred at least by Aeschylus, Sophocles, Euripides\u2014thousands of poems\u2014Aristotle\u2019s own library brought to Egypt by [Cleopatra\u2019s] ancestors. How can we sleep for grief?\u201d \u201cBy counting our stock. Seven plays from Aeschylus, seven from Sophocles, nineteen from Euripides, my lady! You should no more grieve for the rest than for a buckle lost from your first shoe, or for your lesson book which will be lost when you are old. We sh",
+        "full_content": "\u201cOh, Septimus!\u2014can you bear it? All the lost plays of the Athenians! Two hundred at least by Aeschylus, Sophocles, Euripides\u2014thousands of poems\u2014Aristotle\u2019s own library brought to Egypt by [Cleopatra\u2019s] ancestors. How can we sleep for grief?\u201d \u201cBy counting our stock. Seven plays from Aeschylus, seven from Sophocles, nineteen from Euripides, my lady! You should no more grieve for the rest than for a buckle lost from your first shoe, or for your lesson book which will be lost when you are old. We shed as we pick up, like travellers who must carry everything in their arms, and what we let fall will be picked up by those behind. The procession is very long and life is very short. We die on the march. But there is nothing outside the march so nothing can be lost to it. The missing plays of Sophocles will turn up piece by piece, or be written again in another language. Ancient cures for diseases will reveal themselves once more. Mathematical discoveries glimpsed and lost to view will have their time again. You do not suppose, my lady, that if all of Archimedes had been hiding in the great library of Alexandria, we should be at a loss for a corkscrew?\u201d \u2014Tom Stoppard (1937\u20132025)",
+        "raw_html": "<p>&#8220;Oh, Septimus!&#8212;can you bear it? All the lost plays of the Athenians! Two hundred at least by Aeschylus, Sophocles, Euripides&#8212;thousands of poems&#8212;Aristotle&#8217;s own library brought to Egypt by [Cleopatra&#8217;s] ancestors. How can we sleep for grief?&#8221;</p><p>&#8220;By counting our stock. Seven plays from Aeschylus, seven from Sophocles, <em>nineteen </em>from Euripides, my lady! You should no more grieve for the rest than for a buckle lost from your first shoe, or for your lesson book which will be lost when you are old. We shed as we pick up, like travellers who must carry everything in their arms, and what we let fall will be picked up by those behind. The procession is very long and life is very short. We die on the march. But there is nothing outside the march so nothing can be lost to it. The missing plays of Sophocles will turn up piece by piece, or be written again in another language. Ancient cures for diseases will reveal themselves once more. Mathematical discoveries glimpsed and lost to view will have their time again. You do not suppose, my lady, that if all of Archimedes had been hiding in the great library of Alexandria, we should be at a loss for a corkscrew?&#8221;</p><p></p><p>&#8212;Tom Stoppard (1937&#8211;2025)</p>"
+      },
+      "discovered_at": "2025-12-02T00:29:28.683254",
+      "depth": 3,
+      "discovered_from": {
         "source_blog": "https://read.substack.com",
         "source_blog_name": "The Substack Post",
         "source_post_title": "\u201cThis is my corner of the world; I am free to do what I want\u201d",
-        "source_post_link": "https://post.substack.com/p/this-is-my-corner-of-the-world-i",
-        "parent_depth": 2
+        "source_post_link": "https://post.substack.com/p/this-is-my-corner-of-the-world-i"
       }
-    ],
-    [
-      "https://stateline.org",
-      {
-        "source_blog": "https://popular.info",
-        "source_blog_name": "Popular Information",
-        "source_post_title": "Choosing to let kids go hungry",
-        "source_post_link": "https://popular.info/p/choosing-to-let-kids-go-hungry",
-        "parent_depth": 3
-      }
-    ],
-    [
-      "https://collections.mfa.org",
-      {
-        "source_blog": "https://www.bookandsword.com/",
-        "source_blog_name": "Book and Sword",
-        "source_post_title": "Comments on the Djurhamn Sword",
-        "source_post_link": "https://www.bookandsword.com/2025/11/08/comments-on-the-djurhamn-sword/",
-        "parent_depth": 0
-      }
-    ],
+    }
+  },
+  "blogs_to_process": [
     [
       "https://www.usda.gov",
       {
@@ -2317,6 +2334,16 @@
       }
     ],
     [
+      "http://deevybee.blogspot.co.uk",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Bishopblog catalogue (updated 19 October 2024)",
+        "source_post_link": "http://deevybee.blogspot.com/2012/11/bishopblog-catalogue-updated-24th-nov.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://inframethodology.cbs.dk/",
       null
     ],
@@ -2519,6 +2546,16 @@
       }
     ],
     [
+      "https://www.lakewoodobserver.com",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "Legal Aid may be able to assist survivors of domestic violence",
+        "source_post_link": "https://lasclev.org/11012025-2/",
+        "parent_depth": 3
+      }
+    ],
+    [
       "https://mjskay.github.io",
       {
         "source_blog": "https://blog.djnavarro.net/",
@@ -2646,6 +2683,16 @@
         "source_post_title": "Military aircraft accidents are spiking",
         "source_post_link": "https://responsiblestatecraft.org/military-aircraft-accidents/",
         "parent_depth": 3
+      }
+    ],
+    [
+      "https://rishibommasani.github.io",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Artificial Intelligence Training Series for Federal Employees",
+        "source_post_link": "https://coe.gsa.gov/2023/09/06/ai-update-6.html",
+        "parent_depth": 1
       }
     ],
     [
@@ -2826,6 +2873,16 @@
         "source_post_title": "5 Remote Work Security Mistakes To Avoid",
         "source_post_link": "https://technicallyeasy.net/5-remote-work-security-mistakes-to-avoid/",
         "parent_depth": 2
+      }
+    ],
+    [
+      "https://signalcleveland.org",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Signal Cleveland: Owed money by your employer? Here are some options for fighting back",
+        "source_post_link": "https://lasclev.org/11032025/",
+        "parent_depth": 3
       }
     ],
     [
@@ -3227,6 +3284,16 @@
       }
     ],
     [
+      "https://wellcomeleap.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "A LEAP into the future, or off a cliff: Wellcome LEAP's new $50M program",
+        "source_post_link": "http://deevybee.blogspot.com/2025/10/a-leap-into-future-or-off-cliff.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://chicagounbound.uchicago.edu",
       {
         "source_blog": "https://democracyjournal.org",
@@ -3304,6 +3371,16 @@
         "source_post_title": "The Promise of \u201cPublic AI\u201d: Lessons from a National Gathering of State Leaders",
         "source_post_link": "https://blog.citp.princeton.edu/2025/10/01/the-promise-of-public-ai-lessons-from-a-national-gathering-of-state-leaders/",
         "parent_depth": 3
+      }
+    ],
+    [
+      "https://eu.usatoday.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Why I have resigned from the Royal Society",
+        "source_post_link": "http://deevybee.blogspot.com/2024/11/why-i-have-resigned-from-royal-society.html",
+        "parent_depth": 0
       }
     ],
     [
@@ -3401,6 +3478,16 @@
         "source_blog_name": "From Filmers to Farmers",
         "source_post_title": "Doomberg Goes \u201cAll-in\u201d on Substack's Network of VC-Enabled Grifters, While Others Decipher How to Ghost Substack",
         "source_post_link": "https://ff2f.com/how-to-ghost-substack/",
+        "parent_depth": 1
+      }
+    ],
+    [
+      "https://gsa.zoomgov.com",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Federal CX Summit to be Held Virtually November 16",
+        "source_post_link": "https://coe.gsa.gov/2023/11/02/cx-update-22.html",
         "parent_depth": 1
       }
     ],
@@ -3515,6 +3602,16 @@
       }
     ],
     [
+      "https://pcrm.widen.net",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Why I have resigned from the Royal Society",
+        "source_post_link": "http://deevybee.blogspot.com/2024/11/why-i-have-resigned-from-royal-society.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://tokenfreedev.org",
       {
         "source_blog": "http://gilesd-j.com",
@@ -3591,6 +3688,16 @@
         "source_blog_name": "R-bloggers",
         "source_post_title": "From RUnit to testthat with Coding Agent Support",
         "source_post_link": "https://www.r-bloggers.com/2025/11/from-runit-to-testthat-with-coding-agent-support/",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://elpais.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Using PubPeer to screen editors",
+        "source_post_link": "http://deevybee.blogspot.com/2024/09/using-pubpeer-to-screen-editors.html",
         "parent_depth": 0
       }
     ],
@@ -3953,6 +4060,16 @@
       null
     ],
     [
+      "https://my.clevelandclinic.org",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Cleveland Magazine: Legal Aid\u2019s Colleen Cotter Is Making Justice Work for Everyone in Cleveland",
+        "source_post_link": "https://lasclev.org/10282025/",
+        "parent_depth": 3
+      }
+    ],
+    [
       "https://thegovlab.org",
       {
         "source_blog": "https://blog.citp.princeton.edu",
@@ -4195,6 +4312,16 @@
       }
     ],
     [
+      "https://profiles.stanford.edu",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Artificial Intelligence Training Series for Federal Employees",
+        "source_post_link": "https://coe.gsa.gov/2023/09/06/ai-update-6.html",
+        "parent_depth": 1
+      }
+    ],
+    [
       "https://savingplaces.org",
       {
         "source_blog": "https://www.truthdig.com",
@@ -4252,6 +4379,16 @@
         "source_post_title": "Introducing osmar2",
         "source_post_link": "http://gdfe.co/blog/Introducing-osmar2/",
         "parent_depth": 1
+      }
+    ],
+    [
+      "https://leadsafecle.org",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "Lead Safe Cleveland \u2013 5th Annual Walk & Rally",
+        "source_post_link": "https://lasclev.org/10252025/",
+        "parent_depth": 3
       }
     ],
     [
@@ -4454,6 +4591,16 @@
         "source_post_title": "EXCLUSIVE: How the Trump administration sparked a health crisis for ICE detainees",
         "source_post_link": "https://popular.info/p/exclusive-how-the-trump-administration",
         "parent_depth": 3
+      }
+    ],
+    [
+      "https://mega.nz",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "The inner workings of a paper mill:",
+        "source_post_link": "http://deevybee.blogspot.com/2025/11/the-inner-workings-of-paper-mill.html",
+        "parent_depth": 0
       }
     ],
     [
@@ -4723,6 +4870,16 @@
       }
     ],
     [
+      "https://cpl.org",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Signal Cleveland: Owed money by your employer? Here are some options for fighting back",
+        "source_post_link": "https://lasclev.org/11032025/",
+        "parent_depth": 3
+      }
+    ],
+    [
       "https://timharford.com",
       {
         "source_blog": "https://pluralistic.net",
@@ -4770,6 +4927,16 @@
         "source_post_title": "Doomberg Goes \u201cAll-in\u201d on Substack's Network of VC-Enabled Grifters, While Others Decipher How to Ghost Substack",
         "source_post_link": "https://ff2f.com/how-to-ghost-substack/",
         "parent_depth": 1
+      }
+    ],
+    [
+      "https://www.timeshighereducation.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Bishopblog catalogue (updated 19 October 2024)",
+        "source_post_link": "http://deevybee.blogspot.com/2012/11/bishopblog-catalogue-updated-24th-nov.html",
+        "parent_depth": 0
       }
     ],
     [
@@ -4922,6 +5089,16 @@
         "source_post_title": "Substack is a Greenhouse",
         "source_post_link": "https://www.bookandsword.com/2025/11/02/substack-is-a-greenhouse/",
         "parent_depth": 0
+      }
+    ],
+    [
+      "https://ohioela.org",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Signal Cleveland: Owed money by your employer? Here are some options for fighting back",
+        "source_post_link": "https://lasclev.org/11032025/",
+        "parent_depth": 3
       }
     ],
     [
@@ -5117,6 +5294,26 @@
       }
     ],
     [
+      "https://aspe.hhs.gov",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Signal Cleveland: Owed money by your employer? Here are some options for fighting back",
+        "source_post_link": "https://lasclev.org/11032025/",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://hai.stanford.edu",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Artificial Intelligence Training Series for Federal Employees",
+        "source_post_link": "https://coe.gsa.gov/2023/09/06/ai-update-6.html",
+        "parent_depth": 1
+      }
+    ],
+    [
       "https://opr.princeton.edu",
       {
         "source_blog": "https://blog.citp.princeton.edu",
@@ -5237,6 +5434,16 @@
       }
     ],
     [
+      "https://susy.mdpi.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Trouble at t' (review) mill: How MDPI lets down authors",
+        "source_post_link": "http://deevybee.blogspot.com/2025/07/trouble-at-t-review-mill-how-mdpi-lets.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://bylinetimes.com",
       {
         "source_blog": "https://ff2f.com",
@@ -5334,6 +5541,26 @@
         "source_post_title": "Some notes on survey weights",
         "source_post_link": "https://blog.djnavarro.net/posts/2025-09-27_survey-weights/",
         "parent_depth": 0
+      }
+    ],
+    [
+      "https://scholarlykitchen.sspnet.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Using PubPeer to screen editors",
+        "source_post_link": "http://deevybee.blogspot.com/2024/09/using-pubpeer-to-screen-editors.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://writersblocpresents.com",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "\ud83c\udfb6 the most wonderful time of the year \ud83c\udfb6",
+        "source_post_link": "https://benjamindreyer.substack.com/p/the-most-wonderful-time-of-the-year",
+        "parent_depth": 3
       }
     ],
     [
@@ -5463,6 +5690,16 @@
         "source_blog_name": "Popular Information",
         "source_post_title": "Tennessee public libraries close for Trump-inspired book purge",
         "source_post_link": "https://popular.info/p/tennessee-public-libraries-close",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://solutionsandotherproblemsbookpage.blogspot.com",
+      {
+        "source_blog": "https://hyperboleandahalf.blogspot.com",
+        "source_blog_name": "Hyperbole and a Half",
+        "source_post_title": "Announcement",
+        "source_post_link": "http://hyperboleandahalf.blogspot.com/2020/09/announcement.html",
         "parent_depth": 3
       }
     ],
@@ -5677,6 +5914,16 @@
       }
     ],
     [
+      "https://discover.clarivate.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "The dangers of using bibliometrics with polluted data",
+        "source_post_link": "http://deevybee.blogspot.com/2025/11/the-dangers-of-using-metrics-with.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://scottmarsh.com.au",
       {
         "source_blog": "https://ff2f.com",
@@ -5714,6 +5961,26 @@
         "source_post_title": "Teen couple die &#039;engulfed in flames&#039; from highway crash with wrong-way drunk driver who immediately admits he shouldn&#039;t be behind the wheel: Cops",
         "source_post_link": "https://lawandcrime.com/crime/teen-couple-die-engulfed-in-flames-from-highway-crash-with-wrong-way-drunk-driver-who-immediately-admits-he-shouldnt-be-behind-the-wheel-cops/",
         "parent_depth": 2
+      }
+    ],
+    [
+      "https://wellcomeopenresearch.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "New publishing models will only work if authors embrace them",
+        "source_post_link": "http://deevybee.blogspot.com/2025/07/new-publishing-models-will-only-work-if.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://forbetterscience.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "The inner workings of a paper mill:",
+        "source_post_link": "http://deevybee.blogspot.com/2025/11/the-inner-workings-of-paper-mill.html",
+        "parent_depth": 0
       }
     ],
     [
@@ -5853,6 +6120,16 @@
         "source_blog_name": "Notes from a data witch",
         "source_post_title": "Art from code VII: Pixel filters",
         "source_post_link": "https://blog.djnavarro.net/posts/2024-12-24_art-from-code-7/",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://pubpeer.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "IEEE Has a Pseudoscience Problem",
+        "source_post_link": "http://deevybee.blogspot.com/2025/02/ieee-has-pseudoscience-problem.html",
         "parent_depth": 0
       }
     ],
@@ -6157,6 +6434,16 @@
       }
     ],
     [
+      "https://royalsociety.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Seven reasons for keeping Elon Musk as a Fellow of the Royal Society",
+        "source_post_link": "http://deevybee.blogspot.com/2025/02/seven-reasons-for-keeping-elon-musk-as.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://www.eenews.net",
       {
         "source_blog": "https://hypertext.niskanencenter.org",
@@ -6287,6 +6574,16 @@
       }
     ],
     [
+      "https://18f.gsa.gov",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Federal CX Summit to be Held Virtually November 16",
+        "source_post_link": "https://coe.gsa.gov/2023/11/02/cx-update-22.html",
+        "parent_depth": 1
+      }
+    ],
+    [
       "https://engelsbergideas.com",
       {
         "source_blog": "https://smalldeedsbigwar.substack.com",
@@ -6357,6 +6654,16 @@
       }
     ],
     [
+      "https://hyperboleandnineeighths.blogspot.com",
+      {
+        "source_blog": "https://hyperboleandahalf.blogspot.com",
+        "source_blog_name": "Hyperbole and a Half",
+        "source_post_title": "Announcement",
+        "source_post_link": "http://hyperboleandahalf.blogspot.com/2020/09/announcement.html",
+        "parent_depth": 3
+      }
+    ],
+    [
       "https://blogger.googleusercontent.com",
       {
         "source_blog": "http://observationalepidemiology.blogspot.com/",
@@ -6383,6 +6690,16 @@
         "source_blog_name": "West Coast Stat Views (on Observational Epidemiology and more)",
         "source_post_title": "Happy Thanksgiving Eve",
         "source_post_link": "http://observationalepidemiology.blogspot.com/2025/11/happy-thanksgiving-eve.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://dbrech.irit.fr",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "IEEE Has a Pseudoscience Problem",
+        "source_post_link": "http://deevybee.blogspot.com/2025/02/ieee-has-pseudoscience-problem.html",
         "parent_depth": 0
       }
     ],
@@ -6484,6 +6801,16 @@
         "source_post_title": "After you've cleaned your room, you can go outside and play with Foamy.",
         "source_post_link": "http://observationalepidemiology.blogspot.com/2025/11/after-youve-cleaned-your-room-you-can.html",
         "parent_depth": 0
+      }
+    ],
+    [
+      "https://spectrumnews1.com",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Spectrum News 1: Domestic violence: talking about \u2018the last taboo\u2019",
+        "source_post_link": "https://lasclev.org/10112025/",
+        "parent_depth": 3
       }
     ],
     [
@@ -6627,6 +6954,16 @@
       }
     ],
     [
+      "https://www.snf.ch",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Finland vs. Germany: the case of MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2024/12/finland-vs-germany-case-of-mdpi.html",
+        "parent_depth": 0
+      }
+    ],
+    [
       "https://etymology.substack.com",
       {
         "source_blog": "https://read.substack.com",
@@ -6674,6 +7011,16 @@
         "source_post_title": "Trump Slaps Tariffs, As China Powers the Next Energy Age at Record Speed - Planetary Intelligence Bulletin",
         "source_post_link": "https://ageoftransformation.org/trump-slaps-tariffs-as-china-powers-the-next-energy-age-at-record-speed-planetary-intelligence-bulletin/",
         "parent_depth": 2
+      }
+    ],
+    [
+      "https://anthonylcorso.com",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Artificial Intelligence Training Series for Federal Employees",
+        "source_post_link": "https://coe.gsa.gov/2023/09/06/ai-update-6.html",
+        "parent_depth": 1
       }
     ],
     [
@@ -7067,6 +7414,16 @@
       }
     ],
     [
+      "https://tomandlorenzo.com",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "Yass[ification], Queen",
+        "source_post_link": "https://benjamindreyer.substack.com/p/yassification-queen",
+        "parent_depth": 3
+      }
+    ],
+    [
       "https://scottclaessens.github.io",
       {
         "source_blog": "http://www.r-bloggers.com/",
@@ -7083,6 +7440,16 @@
         "source_blog_name": "R-bloggers",
         "source_post_title": "rOpenSci News Digest, November 2025",
         "source_post_link": "https://www.r-bloggers.com/2025/11/ropensci-news-digest-november-2025/",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://dpcpsi.nih.gov",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Gold standard science isn't gold standard if it's applied selectively. Part 2: Research on causes of autism",
+        "source_post_link": "http://deevybee.blogspot.com/2025/08/gold-standard-science-isnt-gold_27.html",
         "parent_depth": 0
       }
     ],
@@ -7184,6 +7551,16 @@
         "source_post_title": "Translating the rOpenSci Dev Guide into Portuguese: Collaboration, Community, Challenges, and Impact",
         "source_post_link": "https://www.r-bloggers.com/2025/11/translating-the-ropensci-dev-guide-into-portuguese-collaboration-community-challenges-and-impact/",
         "parent_depth": 0
+      }
+    ],
+    [
+      "https://booksoup.com",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "Off the Rails",
+        "source_post_link": "https://benjamindreyer.substack.com/p/off-the-rails",
+        "parent_depth": 3
       }
     ],
     [
@@ -13235,6 +13612,306 @@
         "source_post_link": "https://civileats.com/2025/11/07/as-snap-delays-continue-10-ways-to-face-food-prices/",
         "parent_depth": 3
       }
+    ],
+    [
+      "https://elife-rp.msubmit.net",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Problems with ELife's new article type: Replication studies",
+        "source_post_link": "http://deevybee.blogspot.com/2025/10/problems-with-elifes-new-article-type.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://elifesciences.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Problems with ELife's new article type: Replication studies",
+        "source_post_link": "http://deevybee.blogspot.com/2025/10/problems-with-elifes-new-article-type.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://grants.nih.gov",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Gold standard science isn't gold standard if it's applied selectively. Part 2: Research on causes of autism",
+        "source_post_link": "http://deevybee.blogspot.com/2025/08/gold-standard-science-isnt-gold_27.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://solalpirelli.github.io",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "IEEE Has a Pseudoscience Problem",
+        "source_post_link": "http://deevybee.blogspot.com/2025/02/ieee-has-pseudoscience-problem.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://charitycommission.blog.gov.uk",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Seven reasons for keeping Elon Musk as a Fellow of the Royal Society",
+        "source_post_link": "http://deevybee.blogspot.com/2025/02/seven-reasons-for-keeping-elon-musk-as.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://publicationethics.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Tomatoes roaming the fields and canaries in the coalmine: another embarrassing paper for MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2025/01/tomatoes-roaming-fields-and-canaries-in.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://sciprofiles.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Tomatoes roaming the fields and canaries in the coalmine: another embarrassing paper for MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2025/01/tomatoes-roaming-fields-and-canaries-in.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://blog.mdpi.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Tomatoes roaming the fields and canaries in the coalmine: another embarrassing paper for MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2025/01/tomatoes-roaming-fields-and-canaries-in.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://blog.doaj.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Finland vs. Germany: the case of MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2024/12/finland-vs-germany-case-of-mdpi.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://mdpires.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Finland vs. Germany: the case of MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2024/12/finland-vs-germany-case-of-mdpi.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://direct.mit.edu",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Finland vs. Germany: the case of MDPI",
+        "source_post_link": "http://deevybee.blogspot.com/2024/12/finland-vs-germany-case-of-mdpi.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://www.panmacmillan.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Why I have resigned from the Royal Society",
+        "source_post_link": "http://deevybee.blogspot.com/2024/11/why-i-have-resigned-from-royal-society.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "http://Dimensions.ai",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "What is going on at the Journal of Psycholinguistic Research?",
+        "source_post_link": "http://deevybee.blogspot.com/2024/10/what-is-going-on-at-journal-of.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "http://wellcometrust.wordpress.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Bishopblog catalogue (updated 19 October 2024)",
+        "source_post_link": "http://deevybee.blogspot.com/2012/11/bishopblog-catalogue-updated-24th-nov.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "http://www.guardian.co.uk",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Bishopblog catalogue (updated 19 October 2024)",
+        "source_post_link": "http://deevybee.blogspot.com/2012/11/bishopblog-catalogue-updated-24th-nov.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "http://cdbu.org.uk",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Bishopblog catalogue (updated 19 October 2024)",
+        "source_post_link": "http://deevybee.blogspot.com/2012/11/bishopblog-catalogue-updated-24th-nov.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://annualreport.springernature.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "An open letter regarding Scientific Reports",
+        "source_post_link": "http://deevybee.blogspot.com/2024/10/an-open-letter-regarding-scientific.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://insights.uksg.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Using PubPeer to screen editors",
+        "source_post_link": "http://deevybee.blogspot.com/2024/09/using-pubpeer-to-screen-editors.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://doaj.org",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Using PubPeer to screen editors",
+        "source_post_link": "http://deevybee.blogspot.com/2024/09/using-pubpeer-to-screen-editors.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://www.blogger.com",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Using PubPeer to screen editors",
+        "source_post_link": "http://deevybee.blogspot.com/2024/09/using-pubpeer-to-screen-editors.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://open.lnu.se",
+      {
+        "source_blog": "http://deevybee.blogspot.com/",
+        "source_blog_name": "BishopBlog",
+        "source_post_title": "Using PubPeer to screen editors",
+        "source_post_link": "http://deevybee.blogspot.com/2024/09/using-pubpeer-to-screen-editors.html",
+        "parent_depth": 0
+      }
+    ],
+    [
+      "https://recruitingbypaycor.com",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "2026 Summer Associate Program \u2013 applications due 02/15/26",
+        "source_post_link": "https://lasclev.org/2026summerassociate/",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://ejvvmqf8oun.exactdn.com",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "Legal Aid to host 120th Annual Meeting",
+        "source_post_link": "https://lasclev.org/11042025/",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://com.ohio.gov",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Signal Cleveland: Owed money by your employer? Here are some options for fighting back",
+        "source_post_link": "https://lasclev.org/11032025/",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://clevelandmagazine.com",
+      {
+        "source_blog": "https://lasclev.org",
+        "source_blog_name": "Legal Aid Society of Cleveland",
+        "source_post_title": "from Cleveland Magazine: Legal Aid\u2019s Colleen Cotter Is Making Justice Work for Everyone in Cleveland",
+        "source_post_link": "https://lasclev.org/10282025/",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://chcoc.gov",
+      {
+        "source_blog": "https://coe.gsa.gov",
+        "source_blog_name": "GSA - IT Modernization Centers of Excellence",
+        "source_post_title": "Announcing Strategic Foresight 101: Guide to Futures Methods for Government",
+        "source_post_link": "https://coe.gsa.gov/2022/06/10/ia-update-3.html",
+        "parent_depth": 1
+      }
+    ],
+    [
+      "https://elizabethmccracken.substack.com",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "Too many notes?",
+        "source_post_link": "https://benjamindreyer.substack.com/p/too-many-notes",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://thestoryprize.org",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "It's today!",
+        "source_post_link": "https://benjamindreyer.substack.com/p/times-is-hard",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://myfivethings.com",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "It's today!",
+        "source_post_link": "https://benjamindreyer.substack.com/p/times-is-hard",
+        "parent_depth": 3
+      }
+    ],
+    [
+      "https://groveatlantic.com",
+      {
+        "source_blog": "https://benjamindreyer.substack.com",
+        "source_blog_name": "A Word About...",
+        "source_post_title": "In the meantime . . .",
+        "source_post_link": "https://benjamindreyer.substack.com/p/in-the-meantime",
+        "parent_depth": 3
+      }
     ]
   ],
   "queued_domains": [
@@ -13245,14 +13922,15 @@
     "changingmarkets.org",
     "nevalalee.wordpress.com",
     "thenextweb.com",
-    "collections.mfa.org",
     "on.substack.com",
     "cbowdon.github.io",
     "publicdomainreview.org",
     "companiesmarketcap.com",
+    "com.ohio.gov",
     "mainichi.jp",
     "frontofficesports.com",
     "fallingfruit.org",
+    "cdbu.org.uk",
     "understandingwar.org",
     "tinhouse.com",
     "michaelchabon.substack.com",
@@ -13267,10 +13945,10 @@
     "ssl.drgnetwork.com",
     "gplv3.fsf.org",
     "adrianrasoandfanfareciocrlia.bandcamp.com",
-    "lasclev.org",
     "sacredandprofanelove.com",
     "shelterforce.org",
     "news.stanford.edu",
+    "guardian.co.uk",
     "docs.oracle.com",
     "we-are-ols.org",
     "cookieandkate.com",
@@ -13290,6 +13968,7 @@
     "ludic.mataroa.blog",
     "govscape.net",
     "beautifuldecay.com",
+    "signalcleveland.org",
     "github.vikaspotluri.me",
     "trentlawfirm.com",
     "technologist.substack.com",
@@ -13309,6 +13988,7 @@
     "static.heritage.org",
     "rosalia.substack.com",
     "mamot.fr",
+    "ejvvmqf8oun.exactdn.com",
     "posit.co",
     "sevenwonderscollective.com",
     "vk.com",
@@ -13324,6 +14004,8 @@
     "news4sanantonio.com",
     "blogs.loc.gov",
     "scholarcommons.sc.edu",
+    "timeshighereducation.com",
+    "lakewoodobserver.com",
     "ecwpress.com",
     "leedrutman.substack.com",
     "arthistory.barnard.edu",
@@ -13339,6 +14021,8 @@
     "lailluminator.com",
     "archive.cdc.gov",
     "newyorklivearts.org",
+    "anthonylcorso.com",
+    "snf.ch",
     "defector.com",
     "data.memphistn.gov",
     "markcarney.ca",
@@ -13354,6 +14038,7 @@
     "scottmarsh.com.au",
     "contrarian.substack.com",
     "lawandthemultiverse.com",
+    "panmacmillan.com",
     "oms-roster-app.secure-gps.com",
     "whitmanarchive.org",
     "idioms.thefreedictionary.com",
@@ -13382,6 +14067,7 @@
     "tennesseelookout.com",
     "ijeamaka-anyene.netlify.app",
     "redteamblues.com",
+    "gsa.zoomgov.com",
     "macleans.ca",
     "laborcenter.berkeley.edu",
     "tube.incognet.io",
@@ -13405,6 +14091,9 @@
     "uscode.house.gov",
     "yahoo.com",
     "skyien-z.github.io",
+    "wellcomeleap.org",
+    "my.clevelandclinic.org",
+    "grants.nih.gov",
     "repository.law.umich.edu",
     "int.nyt.com",
     "spectrum.ieee.org",
@@ -13421,10 +14110,13 @@
     "zombo.com",
     "americanart.si.edu",
     "rjjulia.com",
+    "royalsociety.org",
+    "doaj.org",
     "willisjgoldsmith.substack.com",
     "eta-publications.lbl.gov",
     "transparency.org.au",
     "cato.org",
+    "blog.mdpi.com",
     "freshaccess.org",
     "jamiesaft.com",
     "kalshi.com",
@@ -13443,13 +14135,14 @@
     "gijn.org",
     "project-osrm.org",
     "jchs.harvard.edu",
-    "deevybee.blogspot.com",
     "e360.yale.edu",
+    "spectrumnews1.com",
     "easternmarket.org",
     "nea.org",
     "genentech.github.io",
     "tribecafilm.com",
     "dps.utah.gov",
+    "charitycommission.blog.gov.uk",
     "quartr.com",
     "pedropark99.github.io",
     "mitchellepner.substack.com",
@@ -13463,6 +14156,7 @@
     "press.princeton.edu",
     "ssd.eff.org",
     "escholarship.org",
+    "dpcpsi.nih.gov",
     "africasacountry.com",
     "asm.org",
     "sloangroups.mit.edu",
@@ -13482,7 +14176,6 @@
     "patriciafield.com",
     "jaildatainitiative.org",
     "hp.com",
-    "jemartisby.com",
     "alliesullberg.substack.com",
     "punchng.com",
     "tidyverse.org",
@@ -13490,9 +14183,11 @@
     "calgara.github.io",
     "mp.mydigitalpublication.com",
     "nairametrics.com",
+    "thestoryprize.org",
     "dlg.usg.edu",
     "readwise.io",
     "laist.com",
+    "open.lnu.se",
     "smartelections.us",
     "taskandpurpose.com",
     "mailchimp.com",
@@ -13503,11 +14198,13 @@
     "cleanpower.org",
     "climate.nasa.gov",
     "actionnetwork.org",
+    "publicationethics.org",
     "founders.archives.gov",
     "unc.edu",
     "erictopol.substack.com",
     "jordansather.substack.com",
     "drericding.substack.com",
+    "forbetterscience.com",
     "majnouna.substack.com",
     "georgiaencyclopedia.org",
     "r-universe.dev",
@@ -13521,7 +14218,6 @@
     "post.substack.com",
     "wwoof.nz",
     "kutv.com",
-    "publicpolicy.googleblog.com",
     "payhip.baldurbjarnason.com",
     "newsletter.semianalysis.com",
     "ieeevis.org",
@@ -13533,6 +14229,8 @@
     "s3.documentcloud.org",
     "finance.yahoo.com",
     "grantland.com",
+    "groveatlantic.com",
+    "elizabethmccracken.substack.com",
     "inkstick.substack.com",
     "criticallegalthinking.com",
     "timesmachine.nytimes.com",
@@ -13551,6 +14249,7 @@
     "fxb.harvard.edu",
     "mckitterick.livejournal.com",
     "media.defense.gov",
+    "deevybee.blogspot.co.uk",
     "mjskay.github.io",
     "edition.cnn.com",
     "wwoofusa.org",
@@ -13576,8 +14275,11 @@
     "frontiersin.org",
     "dailymemphian.com",
     "krymsos.com",
+    "leadsafecle.org",
     "faculty.lmu.edu",
+    "eu.usatoday.com",
     "americanmind.org",
+    "clevelandmagazine.com",
     "content.govdelivery.com",
     "one-sec.app",
     "jacobin.com",
@@ -13603,6 +14305,7 @@
     "tibble.tidyverse.org",
     "journals.asm.org",
     "freespeechforpeople.org",
+    "tomandlorenzo.com",
     "news.byu.edu",
     "libraryguides.missouri.edu",
     "hawarnews.com",
@@ -13618,6 +14321,7 @@
     "nathanzack.substack.com",
     "chat.openai.com",
     "w3techs.com",
+    "elife-rp.msubmit.net",
     "survey.qualtrics.com",
     "vva.org",
     "democrats-judiciary.house.gov",
@@ -13637,18 +14341,19 @@
     "mid.ru",
     "echeloninsights.com",
     "dplyr.tidyverse.org",
-    "coe.gsa.gov",
     "projecteuclid.org",
     "hca.churchcenter.com",
     "en.vijesti.me",
     "griefbacon.substack.com",
     "michaeljburry.substack.com",
     "whitneywesterfield.com",
+    "myfivethings.com",
     "centerforcivicfutures.org",
     "johnkroman.substack.com",
     "laurensands.substack.com",
     "keck.usc.edu",
     "metro.co.uk",
+    "susy.mdpi.com",
     "apps.npr.org",
     "weathersource.com",
     "climateandcommunity.org",
@@ -13720,6 +14425,7 @@
     "escape-forward.com",
     "doh.wa.gov",
     "cfr.org",
+    "scholarlykitchen.sspnet.org",
     "mises.org",
     "abovethelaw.com",
     "librarycarpentry.github.io",
@@ -13754,6 +14460,7 @@
     "theintercept.com",
     "sample.usembassy.gov",
     "fortune.com",
+    "wellcomeopenresearch.org",
     "itsheidiwong.substack.com",
     "markets.chroniclejournal.com",
     "india.mongabay.com",
@@ -13768,6 +14475,7 @@
     "shs.cairn.info",
     "easttennessean.com",
     "translationguide.ropensci.org",
+    "blog.doaj.org",
     "namerology.com",
     "nationalpost.com",
     "citizenlab.ca",
@@ -13797,10 +14505,12 @@
     "jamesclaims.substack.com",
     "mpdc.dc.gov",
     "etc.djnavarro.net",
+    "elpais.com",
     "cdn.mises.org",
     "highways.dot.gov",
     "gtfs.org",
     "populationeducation.org",
+    "solalpirelli.github.io",
     "share.america.gov",
     "pressgazette.co.uk",
     "nmonesource.com",
@@ -13845,6 +14555,7 @@
     "simonwillison.net",
     "craphound.com",
     "digitalrails.substack.com",
+    "profiles.stanford.edu",
     "subscriber.politicopro.com",
     "hamish.substack.com",
     "biblehub.com",
@@ -13853,10 +14564,12 @@
     "mainemorningstar.com",
     "rhg.com",
     "science.nasa.gov",
+    "recruitingbypaycor.com",
     "thepatronsaintofsuperheroes.wordpress.com",
     "loelschlaeger.de",
     "hillsongcreative.com",
     "learn.aplusattendance.com",
+    "discover.clarivate.com",
     "i.4pcdn.org",
     "large.stanford.edu",
     "techdirt.com",
@@ -13921,7 +14634,6 @@
     "tradersontrend.com",
     "insider.fitt.co",
     "blog.bioconductor.org",
-    "world-nuclear-news.org",
     "maccullochhall.org",
     "latimes.com",
     "aiddata.org",
@@ -13932,7 +14644,6 @@
     "scholar.smu.edu",
     "goodpoliticsbadpolitics.substack.com",
     "conceptually.org",
-    "cityoftempeaz.easyvotecampaignfinance.com",
     "counterhate.com",
     "mitsloan.mit.edu",
     "substack.i-d.co",
@@ -13961,6 +14672,8 @@
     "correll.io",
     "margaretsullivan.substack.com",
     "obamawhitehouse.archives.gov",
+    "chcoc.gov",
+    "wellcometrust.wordpress.com",
     "transnewsinitiative.org",
     "provost.harvard.edu",
     "purenonfiction.substack.com",
@@ -13969,6 +14682,7 @@
     "legalinsurrection.com",
     "syriaaccountability.org",
     "news.northeastern.edu",
+    "rishibommasani.github.io",
     "scotusblog.com",
     "billdavison.substack.com",
     "dothemath.ucsd.edu",
@@ -13991,6 +14705,7 @@
     "garrisonnotes.substack.com",
     "retractionwatch.com",
     "hillsdalecollegian.com",
+    "ohioela.org",
     "thetyee.ca",
     "marketshaping.uchicago.edu",
     "dash.harvard.edu",
@@ -13999,6 +14714,7 @@
     "natlawreview.com",
     "themessenger.com",
     "marcburri.github.io",
+    "insights.uksg.org",
     "vanityfair.com",
     "rmarkdown.rstudio.com",
     "danluu.com",
@@ -14013,6 +14729,7 @@
     "kettering.org",
     "rebeccamakkai.substack.com",
     "emilysneddon.com",
+    "mega.nz",
     "chirecoveryplan.com",
     "yoshidk6.github.io",
     "popvox.org",
@@ -14027,6 +14744,7 @@
     "sbworkersunited.org",
     "media.marcopolousa.org",
     "ustr.gov",
+    "annualreport.springernature.com",
     "slate.com",
     "udlguidelines.cast.org",
     "helpingtoleave.org",
@@ -14045,6 +14763,7 @@
     "tylerxhobbs.com",
     "osorensen.github.io",
     "talkingpointsmemo.com",
+    "hai.stanford.edu",
     "doomberg.substack.com",
     "news.bloomberglaw.com",
     "griffithreview.com",
@@ -14053,7 +14772,7 @@
     "hac.bard.edu",
     "hemstacks.antikythera.org",
     "journals.sagepub.com",
-    "stateline.org",
+    "cpl.org",
     "undark.org",
     "foodforward.org",
     "d3nkl3psvxxpe9.cloudfront.net",
@@ -14068,7 +14787,6 @@
     "paezha.github.io",
     "longforgottenhauntedmansion.blogspot.com",
     "nces.ed.gov",
-    "hyperboleandahalf.blogspot.com",
     "bills.parliament.uk",
     "blog.codinghorror.com",
     "hub.conflictobservatory.org",
@@ -14100,6 +14818,7 @@
     "swordreflections.com",
     "geolines.ru",
     "explodingtopics.com",
+    "pubpeer.com",
     "fraser.stlouisfed.org",
     "community.canvaslms.com",
     "gov.louisiana.gov",
@@ -14117,6 +14836,7 @@
     "farmland.org",
     "globalgeopolitics.co.uk",
     "alexandracooks.com",
+    "sciprofiles.com",
     "mellon.org",
     "hageman.house.gov",
     "armandalegshow.com",
@@ -14218,6 +14938,7 @@
     "politicalscience.stanford.edu",
     "harpers.org",
     "ngmdb.usgs.gov",
+    "dbrech.irit.fr",
     "thehandbasket.co",
     "t.me",
     "opr.princeton.edu",
@@ -14231,6 +14952,7 @@
     "openstreetmaps.org",
     "eighteenthelephant.com",
     "rewildingeurope.com",
+    "hyperboleandnineeighths.blogspot.com",
     "billbillbilly.github.io",
     "wwoof.com.au",
     "pepelivesmatter.substack.com",
@@ -14268,12 +14990,14 @@
     "wnycstudios.org",
     "mightyearth.org",
     "demandprogress.org",
+    "pcrm.widen.net",
     "studentsforabundance.org",
     "nytimes.com",
     "astridrnhaas.com",
     "bitcoinist.com",
     "datacarpentry.org",
     "codesria.org",
+    "mdpires.com",
     "producthunt.com",
     "bmcinfectdis.biomedcentral.com",
     "docs.house.gov",
@@ -14291,15 +15015,17 @@
     "ncrc.jhsph.edu",
     "openrivers.eu",
     "news.crunchbase.com",
-    "benjamindreyer.substack.com",
     "salatainstitute.harvard.edu",
     "guardianproject.github.io",
     "sites.ed.gov",
     "rmi.org",
+    "aspe.hhs.gov",
+    "18f.gsa.gov",
     "boingboing.net",
     "jacquelinenovak.substack.com",
     "utpdistribution.com",
     "catherineshannon.substack.com",
+    "booksoup.com",
     "web-cdn.bsky.app",
     "ips-dc.org",
     "wa.me",
@@ -14315,6 +15041,7 @@
     "raritanquarterly.rutgers.edu",
     "patch.com",
     "doctorow.medium.com",
+    "direct.mit.edu",
     "ag.ny.gov",
     "aardvarchaeology.wordpress.com",
     "flodesk.com",
@@ -14324,6 +15051,7 @@
     "law.justia.com",
     "gizmodo.com",
     "labs.detectify.com",
+    "elifesciences.org",
     "404media.co",
     "innovate-us.org",
     "restoringorder.substack.com",
@@ -14344,11 +15072,13 @@
     "addons.mozilla.org",
     "newcomer.co",
     "politicalplaylist.com",
+    "dimensions.ai",
     "yewtu.be",
     "theatlantic.com",
     "thedispatch.com",
     "gamlss.org",
     "vm.tiktok.com",
+    "blogger.com",
     "tripoli.aspirethemes.com",
     "biotech.law.lsu.edu",
     "experience.arcgis.com",
@@ -14372,10 +15102,12 @@
     "marywitha4.substack.com",
     "loc.gov",
     "2-harvest.org",
+    "solutionsandotherproblemsbookpage.blogspot.com",
     "protectdemocracy.org",
     "ideas.repec.org",
     "xkcd.com",
     "standcolumbia.org",
+    "writersblocpresents.com",
     "archives.fbi.gov",
     "ellessenne.github.io",
     "opensubscriptionplatforms.com",
@@ -14405,6 +15137,7 @@
     "hadley.github.io",
     "calendly.com",
     "queue.djnavarro.net",
+    "deevybee.blogspot.com",
     "hillsong.com",
     "flowingdata.com",
     "niti.gov.in",
@@ -14413,6 +15146,7 @@
     "blog.djnavarro.net",
     "upload.wikimedia.org",
     "journals.plos.org",
+    "publicpolicy.googleblog.com",
     "errorstatistics.com",
     "growlermag.com",
     "justice.gov",
@@ -14432,6 +15166,7 @@
     "gilesd-j.com",
     "abcnews.go.com",
     "democracyjournal.org",
+    "collections.mfa.org",
     "smh-hq.org",
     "shikokuchuo.net",
     "mitsloan.service-now.com",
@@ -14453,6 +15188,7 @@
     "urldefense.com",
     "intel.com",
     "academic.oup.com",
+    "stateline.org",
     "roadtolarissa.com",
     "mcusercontent.com",
     "westafricaweekly.com",
@@ -14505,6 +15241,7 @@
     "er.educause.edu",
     "medium.com",
     "database.ich.org",
+    "lasclev.org",
     "wikileaks.org",
     "19thnews.org",
     "r-spatial.github.io",
@@ -14515,11 +15252,13 @@
     "smalldeedsbigwar.substack.com",
     "ssrn.com",
     "azbikelaw.org",
+    "hyperboleandahalf.blogspot.com",
     "popular.info",
     "assets.researchsquare.com",
     "waldo.r-lib.org",
     "r.iresmi.net",
     "iatistandard.org",
+    "jemartisby.com",
     "truthdig.com",
     "read.substack.com",
     "observationalepidemiology.blogspot.com",
@@ -14542,6 +15281,7 @@
     "nateerskinesmith.ca",
     "statmodeling.stat.columbia.edu",
     "conordewey.com",
+    "world-nuclear-news.org",
     "theconversation.com",
     "footnote.wordpress.ncsu.edu",
     "kaskr.r-universe.dev",
@@ -14562,6 +15302,7 @@
     "thestreetjournal.org",
     "gelliottmorris.substack.com",
     "sdd.spc.int",
+    "benjamindreyer.substack.com",
     "delta.com",
     "testthat.r-lib.org",
     "giffords.org",
@@ -14576,6 +15317,7 @@
     "rworks.dev",
     "thewalrus.ca",
     "theverge.com",
+    "cityoftempeaz.easyvotecampaignfinance.com",
     "caladown.djnavarro.net",
     "latinr.org",
     "johnguerra.co",
@@ -14612,6 +15354,7 @@
     "archive.org",
     "stacks.cdc.gov",
     "engineering.fb.com",
+    "coe.gsa.gov",
     "r-bloggers.com",
     "gelliottmorris.com",
     "fox2now.com",
@@ -14663,6 +15406,7 @@
     "robertschoch.com",
     "upload.wikimedia.org",
     "journals.plos.org",
+    "publicpolicy.googleblog.com",
     "errorstatistics.com",
     "growlermag.com",
     "justice.gov",
@@ -14687,6 +15431,7 @@
     "whitehouse.gov",
     "intel.com",
     "academic.oup.com",
+    "stateline.org",
     "madeinamericathebook.wordpress.com",
     "ojs.aaai.org",
     "docs.ropensci.org",
@@ -14730,6 +15475,7 @@
     "assets.researchsquare.com",
     "waldo.r-lib.org",
     "iatistandard.org",
+    "jemartisby.com",
     "lilyge.com",
     "seer.cancer.gov",
     "theloopywhisk.com",
@@ -14767,6 +15513,7 @@
     "minnesotareformer.com",
     "rworks.dev",
     "theverge.com",
+    "cityoftempeaz.easyvotecampaignfinance.com",
     "caladown.djnavarro.net",
     "latinr.org",
     "johnguerra.co",
@@ -14810,24 +15557,25 @@
     "floating-point-gui.de"
   ],
   "failed_base_domains": [
-    "growlermag.com",
-    "medium.com",
-    "nateerskinesmith.ca",
     "substackcdn.com",
-    "policyanlanalysislab.com",
     "intel.com",
-    "minnesotareformer.com",
-    "ssrn.com",
-    "thestreetjournal.org",
-    "picryl.com",
+    "stateline.org",
     "indianexpress.com",
     "theloopywhisk.com",
-    "azbikelaw.org",
+    "nateerskinesmith.ca",
+    "picryl.com",
+    "gamesbeat.com",
+    "growlermag.com",
+    "policyanlanalysislab.com",
+    "thestreetjournal.org",
     "delta.com",
+    "medium.com",
+    "minnesotareformer.com",
+    "ssrn.com",
+    "azbikelaw.org",
     "doge.gov",
     "jamanetwork.com",
-    "gamesbeat.com",
     "wikileaks.org"
   ],
-  "timestamp": "2025-12-02T00:27:23.464598"
+  "timestamp": "2025-12-02T00:29:46.078733"
 }
