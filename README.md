@@ -75,4 +75,4 @@ Special thanks to Andrew for [featuring this project](https://statmodeling.stat.
 
 ## License
 
-MIT License
+BSD 3-Clause License
