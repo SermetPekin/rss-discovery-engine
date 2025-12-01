@@ -1,4 +1,4 @@
-# RSS Discovery Engine
+# Recursive Blog Discovery
 
 A self-expanding blog discovery system that automatically finds new blogs by exploring network relationships. Start with a few seed blogs and watch it recursively discover hundreds more through link analysis.
 
@@ -49,9 +49,22 @@ python discover.py --fresh              # Start from scratch
 python discover.py --strategy depth_first
 ```
 
+## Technical Details
+
+### How it detects "Blogs"
+The engine uses a multi-layered approach to distinguish blogs from other websites:
+1.  **RSS/Atom Feed**: The strongest signal. A site must have a valid feed to be indexed.
+2.  **Domain Filtering**: Allows standard TLDs (.com, .org, .io, .edu) but blocks social media platforms (Twitter, Facebook, LinkedIn), code repositories (GitHub), and encyclopedias (Wikipedia).
+3.  **Platform Indicators**: Detects common blog platforms (Substack, WordPress, Ghost) and URL patterns (e.g., `/blog/`, `/posts/`).
+
+### Graph Construction
+This tool focuses on the **crawling and graph construction** phase. It builds a directed graph of the blogosphere based on citations (links). While it does not currently implement ranking algorithms (like eigenvector centrality), the resulting graph data can be used for such analysis.
+
 ## Credits
 
 Inspired by [Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/). The initial 63 seed blogs were sourced from his curated blogroll, providing an excellent foundation of quality, interconnected blogs.
+
+Special thanks to Andrew for [featuring this project](https://statmodeling.stat.columbia.edu/2025/11/30/sermet-pekins-open-source-project-that-discovers-blogs-through-recursive-network-exploration/) on his blog!
 
 ## Notes
 
