@@ -2,6 +2,8 @@
 
 A self-expanding blog discovery system that automatically finds new blogs by exploring network relationships. Start with a few seed blogs and watch it recursively discover hundreds more through link analysis.
 
+👉 **[View Live Demo](https://sermetpekin.github.io/rss-discovery-engine/)**
+
 ## Key Features
 
 - **Automated Discovery**: Finds blogs by analyzing posts and following citations
