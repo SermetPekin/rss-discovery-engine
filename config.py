@@ -18,7 +18,7 @@ REQUEST_TIMEOUT = 10
 # - depth_first: Prioritize newly discovered blogs (explore network deeply)
 # - random: Random selection from queue
 # - mixed: 50% chance to prioritize new discoveries (current default)
-QUEUE_STRATEGY = 'breadth_first'
+QUEUE_STRATEGY = 'mixed'
 
 # Allowed TLDs/Extensions
 ALLOWED_EXTENSIONS = {
