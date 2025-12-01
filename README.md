@@ -12,7 +12,7 @@ A self-expanding blog discovery system that automatically finds new blogs by exp
 
 ## Screenshots
 
-<img width="1584" height="920" alt="Network visualization" src="https://github.com/user-attachments/assets/909e5480-cd89-4cc0-8c77-a98abf503ec6" />
+<img width="1592" height="907" alt="Network visualization" src="https://github.com/user-attachments/assets/6646746b-579c-4d02-9d8f-0957e9d90480" />
 
 <img width="1418" height="935" alt="Blog dashboard" src="https://github.com/user-attachments/assets/6dd207de-81be-4212-9b08-93a488148bf1" />
 
