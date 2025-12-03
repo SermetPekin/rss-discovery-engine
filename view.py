@@ -16,452 +16,341 @@ COMBINED_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Discovery Network</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>The Discovery Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Libre+Franklin:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
+        :root {
+            --bg: #ffffff;
+            --text: #121212;
+            --text-secondary: #5a5a5a;
+            --border: #e2e2e2;
+            --accent: #000000;
+            --link: #326891;
+        }
+        
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
-        :root {
-            --primary: #6366f1;
-            --secondary: #8b5cf6;
-            --accent: #ec4899;
-            --bg: #f8fafc;
-            --text: #1e293b;
-            --text-dim: #64748b;
-            --border: #e2e8f0;
-        }
-        
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Georgia', 'Times New Roman', serif;
             background: var(--bg);
             color: var(--text);
-            min-height: 100vh;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
         }
         
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 50%);
-            z-index: 0;
+        /* Header / Masthead */
+        header {
+            border-bottom: 1px solid #000;
+            padding: 20px 0;
+            margin-bottom: 40px;
+            text-align: center;
+            position: relative;
         }
         
-        .content { position: relative; z-index: 1; }
+        .masthead-top {
+            border-bottom: 1px solid #e2e2e2;
+            padding: 0 20px 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #333;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            color: #000;
+            margin: 10px 0;
+            line-height: 1;
+        }
         
+        .logo-sub {
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 5px;
+            color: #666;
+        }
+
+        /* Navigation */
         nav {
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            padding: 12px 0;
+            margin-top: 20px;
             position: sticky;
             top: 0;
+            background: white;
             z-index: 100;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
         }
         
         .nav-container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 0 30px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 80px;
-        }
-        
-        .logo {
-            font-size: 1.5em;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        .nav-links {
-            display: flex;
-            gap: 10px;
+            justify-content: center;
+            gap: 40px;
         }
         
         .nav-link {
-            color: var(--text-dim);
-            padding: 10px 20px;
-            border-radius: 12px;
-            font-weight: 500;
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #000;
             cursor: pointer;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            padding: 5px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
         }
         
-        .nav-link:hover {
-            color: var(--text);
-            background: rgba(99, 102, 241, 0.08);
+        .nav-link:hover, .nav-link.active {
+            border-bottom-color: #000;
         }
-        
-        .nav-link.active {
-            color: white;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.25);
-        }
-        
-        .stats-badge {
-            background: rgba(99, 102, 241, 0.2);
-            color: var(--primary);
-            padding: 4px 10px;
-            border-radius: 8px;
-            font-size: 0.85em;
-            font-weight: 600;
-        }
-        
-        .view {
-            display: none;
-        }
-        
-        .view.active {
-            display: block;
-        }
-        
-        /* Posts View */
-        .header {
-            max-width: 1400px;
-            margin: 60px auto 40px;
-            padding: 0 30px;
-            text-align: center;
-        }
-        
-        h1 {
-            font-size: 3.5em;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--text), var(--text-dim));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 15px;
-            letter-spacing: -2px;
-        }
-        
-        .subtitle {
-            color: var(--text-dim);
-            font-size: 1.2em;
-            margin-bottom: 40px;
-        }
-        
-        .search-container {
-            max-width: 600px;
+
+        /* Content Layout */
+        .container {
+            max-width: 1200px;
             margin: 0 auto;
-            position: relative;
+            padding: 0 20px 60px;
+        }
+        
+        .view { display: none; }
+        .view.active { display: block; }
+
+        /* Search Bar */
+        .search-container {
+            margin: 0 auto 40px;
+            max-width: 400px;
+            text-align: center;
         }
         
         .search-box {
             width: 100%;
-            padding: 18px 24px 18px 50px;
-            font-size: 16px;
-            background: white;
-            border: 2px solid var(--border);
-            border-radius: 16px;
-            color: var(--text);
-            transition: all 0.3s;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            padding: 10px 15px;
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.9rem;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background: #f9f9f9;
         }
         
         .search-box:focus {
             outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            background: #fff;
+            border-color: #000;
         }
-        
-        .search-icon {
-            position: absolute;
-            left: 18px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-dim);
-        }
-        
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 40px 30px 80px;
-        }
-        
+
+        /* Blog Grid */
         .blog-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 40px;
+            border-top: 1px solid #000;
+            padding-top: 40px;
         }
         
         .blog-card {
-            background: white;
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 32px;
-            transition: all 0.4s;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-            position: relative;
-            overflow: hidden;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e2e2;
         }
         
-        .blog-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary), var(--secondary));
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        
-        .blog-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 40px rgba(99, 102, 241, 0.12);
-        }
-        
-        .blog-card:hover::before {
-            opacity: 1;
+        .blog-meta-top {
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #888;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
         }
         
         .blog-name {
-            font-size: 1.4em;
-            font-weight: 700;
-            color: var(--text);
-            margin-bottom: 8px;
+            color: #000;
         }
-        
-        .blog-url {
-            color: var(--primary);
-            font-size: 0.9em;
-            text-decoration: none;
-            margin-bottom: 20px;
-            display: block;
-        }
-        
+
         .post-title {
-            font-size: 1.15em;
-            font-weight: 600;
-            margin-bottom: 14px;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 12px;
         }
         
         .post-title a {
-            color: var(--text);
+            color: #000;
             text-decoration: none;
+            transition: color 0.2s;
         }
         
         .post-title a:hover {
-            color: var(--primary);
+            color: #555;
         }
         
-        .post-content {
-            color: var(--text-dim);
-            line-height: 1.8;
-            margin-bottom: 20px;
+        .post-summary {
+            font-family: 'Georgia', serif;
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
         }
         
-        .post-meta {
+        .post-meta-bottom {
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.75rem;
+            color: #888;
             display: flex;
             justify-content: space-between;
-            padding-top: 16px;
-            border-top: 1px solid var(--border);
-            font-size: 0.85em;
+            align-items: center;
         }
         
-        .discovery-badge {
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
-            color: var(--primary);
-            padding: 6px 14px;
-            border-radius: 10px;
-            font-weight: 600;
-            border: 1px solid rgba(99, 102, 241, 0.3);
+        .blog-link {
+            color: #326891;
+            text-decoration: none;
+            font-weight: 500;
         }
         
+        .blog-link:hover {
+            text-decoration: underline;
+        }
+
         /* Network View */
         #network-view {
-            height: calc(100vh - 80px);
-        }
-        
-        #graph {
-            width: 100%;
-            height: 100%;
+            height: 80vh;
+            border: 1px solid #e2e2e2;
+            background: #fcfcfc;
+            position: relative;
         }
         
         .network-controls {
             position: absolute;
             bottom: 20px;
             right: 20px;
-            display: flex;
-            gap: 10px;
         }
         
         .btn {
-            background: white;
-            border: 1px solid var(--border);
-            padding: 12px 24px;
-            border-radius: 12px;
+            background: #fff;
+            border: 1px solid #000;
+            color: #000;
+            padding: 8px 16px;
+            font-family: 'Libre Franklin', sans-serif;
             font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
             cursor: pointer;
-            transition: all 0.3s;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            letter-spacing: 1px;
         }
         
         .btn:hover {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
+            background: #000;
+            color: #fff;
         }
-        
-        .tooltip {
-            position: absolute;
-            background: rgba(0, 0, 0, 0.9);
-            color: white;
-            padding: 12px;
-            border-radius: 8px;
-            pointer-events: none;
-            display: none;
-            max-width: 300px;
-            font-size: 0.9em;
-        }
-        
-        .node { cursor: pointer; stroke: #fff; stroke-width: 2px; transition: all 0.2s; }
-        .node:hover { stroke-width: 3px; filter: brightness(1.2); }
-        .node.seed { fill: #6366f1; }
-        .node.depth-1 { fill: #48bb78; }
-        .node.depth-2 { fill: #eab308; }
-        .node.depth-3 { fill: #f97316; }
-        .node.depth-4plus { fill: #ef4444; }
-        .link { stroke: rgba(99, 102, 241, 0.2); stroke-width: 1.5px; }
-        .label { font-size: 10px; fill: var(--text); pointer-events: none; text-anchor: middle; }
-        
+
         .legend {
             position: absolute;
-            top: 100px;
+            top: 20px;
             right: 20px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 20px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border: 1px solid #ccc;
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.8rem;
         }
-        
-        .legend-title {
-            font-weight: 700;
-            margin-bottom: 12px;
-            color: var(--text);
+
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            background: #fff;
+            border: 1px solid #000;
+            padding: 10px;
+            font-family: 'Libre Franklin', sans-serif;
+            font-size: 0.8rem;
+            pointer-events: none;
+            display: none;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
         }
-        
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 8px;
-            font-size: 0.9em;
-        }
-        
-        .legend-color {
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            border: 2px solid white;
-        }
-        
-        @media (max-width: 768px) {
-            .blog-grid { grid-template-columns: 1fr; }
-            h1 { font-size: 2.5em; }
-        }
+
+        /* D3 Styles */
+        .node { stroke: #fff; stroke-width: 2px; filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.1)); transition: all 0.3s; }
+        .node:hover { stroke: #000; stroke-width: 2px; filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.2)); }
+        .link { stroke: #cbd5e1; stroke-width: 1px; opacity: 0.6; }
+
     </style>
 </head>
 <body>
-    <div class="content">
-        <nav>
-            <div class="nav-container">
-                <div class="logo">✦ Discovery</div>
-                <div class="nav-links">
-                    <div class="nav-link active" onclick="showView('posts')">
-                        <span>📚</span>
-                        <span>Posts</span>
-                        <span class="stats-badge">{{ total_blogs }}</span>
-                    </div>
-                    <div class="nav-link" onclick="showView('network')">
-                        <span>🕸️</span>
-                        <span>Network</span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        
+    <header>
+        <div class="masthead-top">
+            <span>{{ total_blogs }} Sources Discovered</span>
+            <span>Updated: Today</span>
+        </div>
+        <div class="logo">The Discovery Engine</div>
+        <div class="logo-sub">Curated Blog Network & Feed Reader</div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-link active" onclick="showView('posts')">Front Page</div>
+            <div class="nav-link" onclick="showView('network')">Network Map</div>
+        </div>
+    </nav>
+
+    <div class="container">
         <!-- Posts View -->
         <div id="posts-view" class="view active">
-            <div class="header">
-                <h1>Discovered Blogs</h1>
-                <p class="subtitle">Exploring {{ total_blogs }} interconnected blogs</p>
-                <div class="search-container">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" class="search-box" id="searchInput" placeholder="Search blogs, posts, or content...">
-                </div>
+            <div class="search-container">
+                <input type="text" class="search-box" id="searchInput" placeholder="Search articles...">
             </div>
             
-            <div class="container">
-                <div class="blog-grid" id="blogGrid">
-                    {% for blog in blogs %}
-                    <div class="blog-card" data-search="{{ (blog.name + ' ' + blog.latest_post.title + ' ' + blog.latest_post.summary)|lower }}">
-                        <div class="blog-name">{{ blog.name }}</div>
-                        <a href="{{ blog.url }}" target="_blank" class="blog-url">{{ blog.domain }}</a>
-                        <div class="post-title">
-                            <a href="{{ blog.latest_post.link }}" target="_blank">{{ blog.latest_post.title }}</a>
-                        </div>
-                        <div class="post-content">
-                            {{ blog.latest_post.summary[:350] }}{% if blog.latest_post.summary|length > 350 %}...{% endif %}
-                        </div>
-                        <div class="post-meta">
-                            <span>{{ blog.latest_post.published[:10] if blog.latest_post.published else 'Unknown' }}</span>
-                            {% if blog.discovered_from %}
-                            <span class="discovery-badge">✨ Discovered</span>
-                            {% endif %}
-                        </div>
+            <div class="blog-grid" id="blogGrid">
+                {% for blog in blogs %}
+                <div class="blog-card" data-search="{{ (blog.name + ' ' + blog.latest_post.title + ' ' + blog.latest_post.summary)|lower }}">
+                    <div class="blog-meta-top">
+                        <span class="blog-name">{{ blog.name }}</span>
                     </div>
-                    {% endfor %}
+                    <div class="post-title">
+                        <a href="{{ blog.latest_post.link }}" target="_blank">{{ blog.latest_post.title }}</a>
+                    </div>
+                    <div class="post-summary">
+                        {{ blog.latest_post.summary[:250] }}{% if blog.latest_post.summary|length > 250 %}...{% endif %}
+                    </div>
+                    <div class="post-meta-bottom">
+                        <span>{{ blog.latest_post.published[:10] if blog.latest_post.published else 'Unknown Date' }}</span>
+                        <a href="{{ blog.url }}" target="_blank" class="blog-link">Visit Site &rarr;</a>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
-        
+
         <!-- Network View -->
         <div id="network-view" class="view">
             <svg id="graph"></svg>
             <div class="legend">
-                <div class="legend-title">Discovery Depth</div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background: #6366f1;"></div>
-                    <span>Seed Blogs</span>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background: #48bb78;"></div>
-                    <span>Level 1</span>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background: #eab308;"></div>
-                    <span>Level 2</span>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background: #f97316;"></div>
-                    <span>Level 3</span>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background: #ef4444;"></div>
-                    <span>Level 4+</span>
-                </div>
+                <strong>Discovery Depth</strong><br><br>
+                <span style="color:#4f46e5">●</span> Seed Blog<br>
+                <span style="color:#059669">●</span> Level 1<br>
+                <span style="color:#d97706">●</span> Level 2<br>
+                <span style="color:#db2777">●</span> Level 3<br>
+                <span style="color:#475569">●</span> Level 4+
             </div>
             <div class="network-controls">
-                <button class="btn" onclick="resetNetworkView()">🔄 Reset View</button>
+                <button class="btn" onclick="resetNetworkView()">Reset View</button>
             </div>
             <div class="tooltip" id="tooltip"></div>
         </div>
     </div>
-    
+
     <script>
         const graphData = {{ graph_data|tojson }};
         let network = null;
@@ -471,7 +360,7 @@ COMBINED_TEMPLATE = '''
             document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
             
             document.getElementById(view + '-view').classList.add('active');
-            event.target.closest('.nav-link').classList.add('active');
+            event.target.classList.add('active');
             
             if (view === 'network' && !network) {
                 initNetwork();
@@ -479,8 +368,9 @@ COMBINED_TEMPLATE = '''
         }
         
         function initNetwork() {
-            const width = window.innerWidth;
-            const height = window.innerHeight - 80;
+            const container = document.getElementById('network-view');
+            const width = container.clientWidth;
+            const height = container.clientHeight;
             
             const svg = d3.select("#graph").attr("width", width).attr("height", height);
             const g = svg.append("g");
@@ -489,16 +379,25 @@ COMBINED_TEMPLATE = '''
             svg.call(zoom);
             
             const simulation = d3.forceSimulation(graphData.nodes)
-                .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(120))
-                .force("charge", d3.forceManyBody().strength(-300))
-                .force("center", d3.forceCenter(width/2, height/2))
-                .force("x", d3.forceX(width/2).strength(0.1))
-                .force("y", d3.forceY(height/2).strength(0.1));
+                .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(100))
+                .force("charge", d3.forceManyBody().strength(-200))
+                .force("center", d3.forceCenter(width/2, height/2));
             
             const link = g.append("g").selectAll("line").data(graphData.links).join("line").attr("class", "link");
+            
+            // Vibrant palette for network
+            const getColor = (type) => {
+                if (type === 'seed') return '#4f46e5';      // Indigo
+                if (type === 'depth-1') return '#059669';   // Emerald
+                if (type === 'depth-2') return '#d97706';   // Amber
+                if (type === 'depth-3') return '#db2777';   // Pink
+                return '#475569';                           // Slate
+            };
+
             const node = g.append("g").selectAll("circle").data(graphData.nodes).join("circle")
-                .attr("class", d => `node ${d.type}`)
-                .attr("r", d => d.type === 'seed' ? 10 : (8 - Math.min(d.depth, 4)))
+                .attr("class", "node")
+                .attr("r", d => d.type === 'seed' ? 8 : (6 - Math.min(d.depth, 3)))
+                .attr("fill", d => getColor(d.type))
                 .call(d3.drag()
                     .on("start", (e,d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
                     .on("drag", (e,d) => { d.fx=e.x; d.fy=e.y; })
@@ -509,32 +408,30 @@ COMBINED_TEMPLATE = '''
                     t.style.display = 'block';
                     t.style.left = (e.pageX+10)+'px';
                     t.style.top = (e.pageY+10)+'px';
-                    const depthText = d.type === 'seed' ? 'Seed Blog' : `Level ${d.depth}`;
-                    t.innerHTML = `<strong>${d.name}</strong><br><small>${d.url}</small><br><em>${depthText}</em>${d.source ? '<br><br><em>Found by: '+d.source+'</em>' : ''}`;
+                    t.innerHTML = `<strong>${d.name}</strong><br>${d.url}`;
                 })
                 .on("mouseout", () => document.getElementById('tooltip').style.display = 'none');
             
+            // Add labels to nodes
             const label = g.append("g").selectAll("text").data(graphData.nodes).join("text")
-                .attr("class", "label").text(d => d.label.substring(0,20));
-            
+                .attr("class", "label")
+                .text(d => d.name.length > 15 ? d.name.substring(0, 15) + '...' : d.name)
+                .attr("dx", 12)
+                .attr("dy", 4);
+
             simulation.on("tick", () => {
                 link.attr("x1", d=>d.source.x).attr("y1", d=>d.source.y).attr("x2", d=>d.target.x).attr("y2", d=>d.target.y);
                 node.attr("cx", d=>d.x).attr("cy", d=>d.y);
-                label.attr("x", d=>d.x).attr("y", d=>d.y-12);
+                label.attr("x", d=>d.x).attr("y", d=>d.y);
             });
             
             window.resetNetworkView = function() {
-                const bounds = g.node().getBBox();
-                const scale = 0.9 / Math.max(bounds.width/width, bounds.height/height);
-                const translate = [width/2 - scale*(bounds.x+bounds.width/2), height/2 - scale*(bounds.y+bounds.height/2)];
-                svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale));
+                svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity);
             };
             
-            setTimeout(() => window.resetNetworkView(), 2000);
             network = true;
         }
         
-        // Search functionality
         document.getElementById('searchInput').addEventListener('input', function() {
             const searchTerm = this.value.toLowerCase();
             document.querySelectorAll('.blog-card').forEach(card => {

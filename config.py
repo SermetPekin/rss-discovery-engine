@@ -7,10 +7,10 @@ JSON_DIR = 'json'
 
 # Crawl Settings
 MAX_BLOGS_DEFAULT = 250
-MAX_POSTS_TO_CHECK = 20
+MAX_POSTS_TO_CHECK = 40
 CHECKPOINT_FILENAME = 'crawler_checkpoint.json'
 CHECKPOINT_INTERVAL = 5
-REQUEST_TIMEOUT = 10
+REQUEST_TIMEOUT = 20
 
 # Queue Strategy
 # Options: 'breadth_first', 'depth_first', 'random', 'mixed'
