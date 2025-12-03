@@ -38,6 +38,15 @@ BLOG_INDICATORS = [
     'substack', 'ghost.io', 'write.as', 'tumblr', 'github.io', 'netlify.app'
 ]
 
+# Keywords that suggest a site is NOT a blog (commercial, agency, news, etc.)
+NON_BLOG_KEYWORDS = [
+    'agency', 'consulting', 'solutions', 'services', 'products', 'pricing',
+    'shop', 'store', 'market', 'news', 'media', 'press', 'corp', 'inc',
+    'ltd', 'group', 'holdings', 'careers', 'jobs', 'support', 'help',
+    'status', 'api', 'docs', 'portal', 'login', 'signin', 'signup',
+    'register', 'account', 'dashboard', 'admin', 'billing'
+]
+
 # Domains to skip (not blogs)
 SKIP_DOMAINS = {
     'twitter.com', 'x.com', 'facebook.com', 'linkedin.com', 
