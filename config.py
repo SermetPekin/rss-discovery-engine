@@ -7,10 +7,10 @@ JSON_DIR = 'json'
 
 # Crawl Settings
 MAX_BLOGS_DEFAULT = 250
-MAX_POSTS_TO_CHECK = 20
+MAX_POSTS_TO_CHECK = 40
 CHECKPOINT_FILENAME = 'crawler_checkpoint.json'
 CHECKPOINT_INTERVAL = 5
-REQUEST_TIMEOUT = 10
+REQUEST_TIMEOUT = 20
 
 # Queue Strategy
 # Options: 'breadth_first', 'depth_first', 'random', 'mixed'
@@ -36,6 +36,15 @@ ALLOWED_EXTENSIONS = {
 BLOG_INDICATORS = [
     'blog', 'posts', 'articles', 'wordpress', 'blogspot', 'medium.com',
     'substack', 'ghost.io', 'write.as', 'tumblr', 'github.io', 'netlify.app'
+]
+
+# Keywords that suggest a site is NOT a blog (commercial, agency, news, etc.)
+NON_BLOG_KEYWORDS = [
+    'agency', 'consulting', 'solutions', 'services', 'products', 'pricing',
+    'shop', 'store', 'market', 'news', 'media', 'press', 'corp', 'inc',
+    'ltd', 'group', 'holdings', 'careers', 'jobs', 'support', 'help',
+    'status', 'api', 'docs', 'portal', 'login', 'signin', 'signup',
+    'register', 'account', 'dashboard', 'admin', 'billing'
 ]
 
 # Domains to skip (not blogs)

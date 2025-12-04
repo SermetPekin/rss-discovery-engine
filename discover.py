@@ -84,6 +84,9 @@ class RecursiveBlogDiscovery:
         # Common blog platforms/indicators
         self.blog_indicators = config.BLOG_INDICATORS
         
+        # Keywords that suggest a site is NOT a blog
+        self.non_blog_keywords = getattr(config, 'NON_BLOG_KEYWORDS', [])
+        
         # Domains to skip (not blogs)
         self.skip_domains = config.SKIP_DOMAINS
         
