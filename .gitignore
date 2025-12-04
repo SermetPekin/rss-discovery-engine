@@ -20,9 +20,11 @@ archive/
 !tsconfig.json
 test_*.json
 *.log
+json/
 
 # Private notes (not for public repo)
 private_notes/
+*_blogs.py
 
 # IDE
 .vscode/
