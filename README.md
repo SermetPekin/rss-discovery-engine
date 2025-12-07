@@ -45,13 +45,33 @@ pip install -r requirements.txt
 ### Usage
 
 1.  **Seed the crawler**: Add your favorite blog URLs to `seeds.txt`.
+
 2.  **Run discovery**:
     ```bash
     python discover.py
     ```
-    *Options:*
-    *   `--fresh`: Archive old results and start a new crawl.
-    *   `--strategy [breadth_first|depth_first|mixed]`: Change how the crawler prioritizes the queue.
+    By default, this will automatically resume from the most recent checkpoint with the most progress. If no checkpoint exists, it starts fresh.
+
+    **Command Line Options:**
+
+    *   `--fresh`: Archive all old results and start a completely new crawl from the seeds.
+    *   `--checkpoint [file|count]`: Resume from a specific point. You can provide a full file path or just the number of blogs (e.g., `--checkpoint 140` will find the checkpoint with ~140 blogs).
+    *   `--strategy [mixed|breadth_first|depth_first|random]`: Change how the crawler prioritizes the queue. Default is `mixed`.
+
+    **Examples:**
+    ```bash
+    # Resume from the best available checkpoint (default behavior)
+    python discover.py
+
+    # Start over completely
+    python discover.py --fresh
+
+    # Resume from a specific backup with ~140 blogs
+    python discover.py --checkpoint 140
+
+    # Prioritize exploring deep into the network
+    python discover.py --strategy depth_first
+    ```
 
 3.  **Visualize**:
     ```bash
