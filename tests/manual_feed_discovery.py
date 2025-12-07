@@ -99,10 +99,10 @@ def test_feed_discovery(url: str):
                 continue
         
         if not sitemap_found:
-            print("   ⚠️  No sitemap found")
+            print("   No sitemap found")
         
         # Step 4: Parse navigation for blog/feed links
-        print("\n🧭 Step 4: Scanning navigation for blog indicators...")
+        print("\nStep 4: Scanning navigation for blog indicators...")
         nav_keywords = ['blog', 'rss', 'feed', 'atom', 'subscribe', 'news', 'articles', 'posts']
         
         # Find navigation elements
@@ -132,17 +132,17 @@ def test_feed_discovery(url: str):
                     })
         
         if blog_links:
-            print(f"   ✅ Found {len(blog_links)} blog-related link(s):")
+            print(f"   Found {len(blog_links)} blog-related link(s):")
             for i, link in enumerate(blog_links[:10], 1):
                 print(f"      {i}. Text: '{link['text']}'")
                 print(f"         URL: {link['full_url']}")
             if len(blog_links) > 10:
                 print(f"      ... and {len(blog_links) - 10} more")
         else:
-            print("   ⚠️  No blog-related links found in navigation")
+            print("   No blog-related links found in navigation")
         
         # Step 5: Try common feed paths
-        print("\n🔎 Step 5: Testing common feed paths...")
+        print("\nStep 5: Testing common feed paths...")
         common_feeds = [
             '/feed/', '/rss/', '/atom/', '/feed', '/rss', '/atom',
             '/index.xml', '/rss.xml', '/feed.xml', '/atom.xml',
@@ -163,41 +163,41 @@ def test_feed_discovery(url: str):
                 pass
         
         if working_feeds:
-            print(f"   ✅ Found {len(working_feeds)} working feed(s):")
+            print(f"   Found {len(working_feeds)} working feed(s):")
             for wf in working_feeds:
                 print(f"      • {wf}")
         else:
-            print("   ⚠️  No common feed paths found")
+            print("   No common feed paths found")
         
         # Final Summary
-        print("\n" + "=" * 80)
-        print("📊 SUMMARY")
-        print("=" * 80)
+        print("\n" + "=" * 60)
+        print("SUMMARY")
+        print("=" * 60)
         
         if feed_urls:
-            print(f"✅ Status: SUCCESS - Found {len(feed_urls)} feed URL(s)")
-            print("\n🎯 Feed URLs to try:")
+            print(f"Status: SUCCESS - Found {len(feed_urls)} feed URL(s)")
+            print("\nFeed URLs to try:")
             for i, feed_url in enumerate(feed_urls[:5], 1):
                 print(f"   {i}. {feed_url}")
             if len(feed_urls) > 5:
                 print(f"   ... and {len(feed_urls) - 5} more")
         elif has_blog_indicators:
-            print("⚠️  Status: HAS_BLOG_INDICATORS")
+            print("Status: HAS_BLOG_INDICATORS")
             print("   Site has blog-related links but no RSS feeds found")
         else:
-            print("❌ Status: NO_BLOG_INDICATORS")
+            print("Status: NO_BLOG_INDICATORS")
             print("   No blog presence detected on this site")
         
-        print(f"\n📈 Blog Indicators: {'Yes ✓' if has_blog_indicators else 'No ✗'}")
+        print(f"\nBlog Indicators: {'Yes' if has_blog_indicators else 'No'}")
         
         # Recommendation
-        print("\n💡 RECOMMENDATION:")
+        print("\nRECOMMENDATION:")
         if feed_urls:
-            print("   ✅ This site should be added to discovered blogs")
+            print("   This site should be added to discovered blogs")
         elif has_blog_indicators:
-            print("   ⚠️  Don't blacklist base domain - may have blog subdomain")
+            print("   Don't blacklist base domain - may have blog subdomain")
         else:
-            print("   🚫 Safe to blacklist base domain - no blog presence")
+            print("   Safe to blacklist base domain - no blog presence")
         
     except requests.exceptions.Timeout:
         print("\n❌ ERROR: Timeout - Site unreachable")

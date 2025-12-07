@@ -1,83 +1,83 @@
-# Recursive Blog Discovery
+# RSS Discovery Engine
 
-A self-expanding blog discovery system that automatically finds new blogs by exploring network relationships. Start with a few seed blogs and watch it recursively discover hundreds more through link analysis.
+A recursive crawler designed to map the independent web. It starts with a handful of seed blogs and follows the breadcrumbs—citations, blogrolls, and links—to discover the hidden network of writers and thinkers.
 
 👉 **[View Live Demo](https://sermetpekin.github.io/rss-discovery-engine/)**
 
-## Key Features
 
-- **Automated Discovery**: Finds blogs by analyzing posts and following citations
-- **Multiple Strategies**: Breadth-first, depth-first, random, or mixed exploration
-- **Smart Filtering**: TLD validation, platform detection, robots.txt compliance
-- **Network Visualization**: Interactive graph showing blog relationships
-- **Checkpoint Recovery**: Resume from interruptions
+## Why this exists
 
-## Screenshots
+Most discovery today is algorithmic, driven by engagement metrics on centralized platforms. This engine takes a different approach: it trusts the writers you already read. By following who they link to, we can uncover a graph of high-quality, human-curated content that often flies under the radar of search engines and social feeds.
 
+## How it works
 
-<img width="1360" height="932" alt="image" src="https://github.com/user-attachments/assets/1a0278b7-bd15-4b39-82be-ccf9303e8b2b" />
+The engine uses a recursive strategy:
+1.  **Ingest**: Starts with a list of trusted "seed" blogs.
+2.  **Crawl**: Fetches the latest posts via RSS/Atom feeds.
+3.  **Analyze**: Scans content for outbound links to other domains.
+4.  **Verify**: Checks if those domains are valid blogs (active feeds, non-corporate, non-spam).
+5.  **Expand**: Adds verified blogs to the queue and repeats.
 
-<img width="1247" height="883" alt="image" src="https://github.com/user-attachments/assets/8d8339b9-1b2c-4161-96ec-9aa39091be73" />
+The result is a directed graph of the blogosphere, visualized interactively to show communities and connections.
 
-<img width="1382" height="930" alt="image" src="https://github.com/user-attachments/assets/d2bf8461-5809-4df2-b228-9b5e2b6753e6" />
+## Architecture
 
+Built with Python, this project emphasizes robustness and modularity:
+-   **Data Validation**: Uses **Pydantic** for strict type checking and data modeling.
+-   **Configuration**: Environment-aware settings management via `pydantic-settings`.
+-   **State Management**: Resilient checkpointing system that saves progress automatically, allowing long-running crawls to be paused and resumed.
+-   **Graph Visualization**: A D3.js frontend to explore the discovered network.
 
-## Quick Start
+## Getting Started
+
+### Prerequisites
+-   Python 3.9+
+-   `pip`
+
+### Installation
 
 ```bash
-# Install dependencies
+git clone https://github.com/sermetpekin/rss-discovery-engine.git
+cd rss-discovery-engine
 pip install -r requirements.txt
-
-# Add seed blogs to seeds.txt, then run
-python discover.py
-
-# Start fresh (archives old results)
-python discover.py --fresh
-
-# View results
-python view.py -p 5011
 ```
 
-Open `http://localhost:5011` to explore discovered blogs and the network graph.
+### Usage
+
+1.  **Seed the crawler**: Add your favorite blog URLs to `seeds.txt`.
+2.  **Run discovery**:
+    ```bash
+    python discover.py
+    ```
+    *Options:*
+    *   `--fresh`: Archive old results and start a new crawl.
+    *   `--strategy [breadth_first|depth_first|mixed]`: Change how the crawler prioritizes the queue.
+
+3.  **Visualize**:
+    ```bash
+    python view.py
+    ```
+    Open `http://localhost:5011` to see the graph.
 
 ## Configuration
 
-Key settings in `config.py`:
+Settings are managed in `config.py` and can be overridden by environment variables.
 
-- `MAX_BLOGS_DEFAULT`: Target number of blogs (default: 250)
-- `QUEUE_STRATEGY`: `breadth_first`, `depth_first`, `random`, or `mixed`
-- `MAX_POSTS_TO_CHECK`: Posts to analyze per blog (default: 20)
-- `CHECKPOINT_INTERVAL`: Save progress every N blogs (default: 5)
+| Setting | Default | Description |
+|---------|---------|-------------|
+| `MAX_BLOGS_DEFAULT` | 250 | Target number of blogs to find |
+| `QUEUE_STRATEGY` | `mixed` | How to prioritize the crawl queue |
+| `CHECKPOINT_INTERVAL` | 5 | Save state every N blogs |
 
-Run options:
-```bash
-python discover.py --fresh              # Start from scratch
-python discover.py --strategy depth_first
-```
+## Screenshots
 
-## Technical Details
-
-### How it detects "Blogs"
-The engine uses a multi-layered approach to distinguish blogs from other websites:
-1.  **RSS/Atom Feed**: The strongest signal. A site must have a valid feed to be indexed.
-2.  **Domain Filtering**: Allows standard TLDs (.com, .org, .io, .edu) but blocks social media platforms (Twitter, Facebook, LinkedIn), code repositories (GitHub), and encyclopedias (Wikipedia).
-3.  **Platform Indicators**: Detects common blog platforms (Substack, WordPress, Ghost) and URL patterns (e.g., `/blog/`, `/posts/`).
-
-### Graph Construction
-This tool focuses on the **crawling and graph construction** phase. It builds a directed graph of the blogosphere based on citations (links). While it does not currently implement ranking algorithms (like eigenvector centrality), the resulting graph data can be used for such analysis.
+<img width="1360" height="932" alt="Network Graph" src="https://github.com/user-attachments/assets/1a0278b7-bd15-4b39-82be-ccf9303e8b2b" />
 
 ## Credits
 
-Inspired by [Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/). The initial 63 seed blogs were sourced from his curated blogroll, providing an excellent foundation of quality, interconnected blogs.
+This project was inspired by [Andrew Gelman's Statistical Modeling Blog](https://statmodeling.stat.columbia.edu/). The initial seed list was sourced from his blogroll, which provided a dense, high-quality starting point for the network.
 
-Special thanks to Andrew for [featuring this project](https://statmodeling.stat.columbia.edu/2025/11/30/sermet-pekins-open-source-project-that-discovers-blogs-through-recursive-network-exploration/) on his blog!
-
-## Notes
-
-- Only accesses public RSS feeds
-- Respects robots.txt and implements rate limiting
-- Stores metadata only (titles, links, summaries)
-- For educational and personal use
+Special thanks to Andrew for [featuring this project](https://statmodeling.stat.columbia.edu/2025/11/30/sermet-pekins-open-source-project-that-discovers-blogs-through-recursive-network-exploration/).
 
 ## License
 
