@@ -1,6 +1,6 @@
 
 import logging
-from discover import RecursiveBlogDiscovery
+from crawler import RecursiveBlogDiscovery
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

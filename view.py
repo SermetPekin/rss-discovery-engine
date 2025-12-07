@@ -7,6 +7,10 @@ from flask import Flask, render_template_string
 import json
 import os
 import argparse
+from config import Settings
+
+# Initialize settings
+settings = Settings()
 
 app = Flask(__name__)
 
@@ -445,8 +449,8 @@ COMBINED_TEMPLATE = '''
 
 
 def load_data():
-    checkpoint_path = os.path.join('json', 'crawler_checkpoint.json')
-    results_path = os.path.join('json', 'discovery_results.json')
+    checkpoint_path = os.path.join(settings.JSON_DIR, settings.CHECKPOINT_FILENAME)
+    results_path = os.path.join(settings.JSON_DIR, 'discovery_results.json')
     
     if os.path.exists(checkpoint_path):
         with open(checkpoint_path, 'r') as f:
@@ -519,10 +523,10 @@ if __name__ == '__main__':
                         help='Port number to run the server on (default: 5011)')
     args = parser.parse_args()
     
-    print("=" * 80)
-    print("✦ Combined Blog Discovery Viewer")
-    print("=" * 80)
+    print("=" * 60)
+    print("Combined Blog Discovery Viewer")
+    print("=" * 60)
     data = load_data()
-    print(f"\n📊 {data['total_blogs']} blogs loaded")
-    print(f"🌐 http://localhost:{args.port}\n")
+    print(f"\n{data['total_blogs']} blogs loaded")
+    print(f"http://localhost:{args.port}\n")
     app.run(debug=False, host='0.0.0.0', port=args.port)

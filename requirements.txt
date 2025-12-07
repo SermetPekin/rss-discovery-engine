@@ -5,3 +5,5 @@ feedparser
 lxml
 pytest
 urllib3
+pydantic
+pydantic-settings

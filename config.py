@@ -1,71 +1,83 @@
-"""
-Configuration settings for the Recursive Blog Discovery Crawler
-"""
+from typing import Set, List
+from pydantic_settings import BaseSettings
 
-# File paths
-JSON_DIR = 'json'
+class Settings(BaseSettings):
+    """
+    Configuration settings for the Recursive Blog Discovery Crawler.
+    Uses Pydantic for validation and environment variable support.
+    """
+    
+    # File paths
+    JSON_DIR: str = 'json'
+    CHECKPOINT_FILENAME: str = 'crawler_checkpoint.json'
+    
+    # Crawl Settings
+    MAX_BLOGS_DEFAULT: int = 250
+    MAX_POSTS_TO_CHECK: int = 40
+    CHECKPOINT_INTERVAL: int = 5
+    REQUEST_TIMEOUT: int = 20
+    
+    # Queue Strategy
+    QUEUE_STRATEGY: str = 'mixed'
 
-# Crawl Settings
-MAX_BLOGS_DEFAULT = 250
-MAX_POSTS_TO_CHECK = 40
-CHECKPOINT_FILENAME = 'crawler_checkpoint.json'
-CHECKPOINT_INTERVAL = 5
-REQUEST_TIMEOUT = 20
+    # Allowed TLDs/Extensions
+    ALLOWED_EXTENSIONS: Set[str] = {
+        # Generic
+        '.com', '.org', '.net', '.edu', '.gov', '.mil', '.int',
+        # Tech/Web
+        '.io', '.co', '.ai', '.dev', '.app', '.me', '.info', '.biz', '.xyz', '.tech', '.site', '.online',
+        # Country Codes
+        '.uk', '.ca', '.au', '.nz', '.de', '.fr', '.jp', '.tr', '.br', '.in',
+        '.us', '.eu', '.nl', '.se', '.no', '.es', '.it', '.ch', '.at', '.dk',
+        '.be', '.pl', '.ru', '.cn', '.kr', '.sg', '.hk', '.tw'
+    }
 
-# Queue Strategy
-# Options: 'breadth_first', 'depth_first', 'random', 'mixed'
-# - breadth_first: Process seed blogs first, then discovered blogs in order (FIFO)
-# - depth_first: Prioritize newly discovered blogs (explore network deeply)
-# - random: Random selection from queue
-# - mixed: 50% chance to prioritize new discoveries (current default)
-QUEUE_STRATEGY = 'mixed'
+    # Common blog platforms/indicators
+    BLOG_INDICATORS: List[str] = [
+        'blog', 'posts', 'articles', 'wordpress', 'blogspot', 'medium.com',
+        'substack', 'ghost.io', 'write.as', 'tumblr', 'github.io', 'netlify.app'
+    ]
 
-# Allowed TLDs/Extensions
-ALLOWED_EXTENSIONS = {
-    # Generic
-    '.com', '.org', '.net', '.edu', '.gov', '.mil', '.int',
-    # Tech/Web
-    '.io', '.co', '.ai', '.dev', '.app', '.me', '.info', '.biz', '.xyz', '.tech', '.site', '.online',
-    # Country Codes (Common ones)
-    '.uk', '.ca', '.au', '.nz', '.de', '.fr', '.jp', '.tr', '.br', '.in',
-    '.us', '.eu', '.nl', '.se', '.no', '.es', '.it', '.ch', '.at', '.dk',
-    '.be', '.pl', '.ru', '.cn', '.kr', '.sg', '.hk', '.tw'
-}
+    # Keywords that suggest a site is NOT a blog
+    NON_BLOG_KEYWORDS: List[str] = [
+        'agency', 'consulting', 'solutions', 'services', 'products', 'pricing',
+        'shop', 'store', 'market', 'news', 'media', 'press', 'corp', 'inc',
+        'ltd', 'group', 'holdings', 'careers', 'jobs', 'support', 'help',
+        'status', 'api', 'docs', 'portal', 'login', 'signin', 'signup',
+        'register', 'account', 'dashboard', 'admin', 'billing'
+    ]
+    
+    # Domains to skip (not blogs)
+    SKIP_DOMAINS: Set[str] = {
+        'twitter.com', 'facebook.com', 'linkedin.com', 'instagram.com',
+        'youtube.com', 'github.com', 'wikipedia.org', 'reddit.com',
+        'medium.com', 'substack.com', 'ghost.org', 'wordpress.com',
+        'google.com', 'amazon.com', 'microsoft.com', 'apple.com',
+        'nytimes.com', 'wsj.com', 'bbc.com', 'cnn.com', 'reuters.com',
+        'bloomberg.com', 'forbes.com', 'techcrunch.com', 'wired.com',
+        'theverge.com', 'arstechnica.com', 'ycombinator.com',
+        'stackoverflow.com', 'quora.com', 'pinterest.com', 'tiktok.com'
+    }
 
-# Common blog platforms/indicators
-BLOG_INDICATORS = [
-    'blog', 'posts', 'articles', 'wordpress', 'blogspot', 'medium.com',
-    'substack', 'ghost.io', 'write.as', 'tumblr', 'github.io', 'netlify.app'
-]
+    # Major sites where if one subdomain fails, blacklist the whole base domain
+    BLACKLIST_BASE_DOMAIN_SITES: Set[str] = {
+        'blogspot.com', 'wordpress.com', 'tumblr.com', 'medium.com', 
+        'substack.com', 'github.io', 'netlify.app', 'vercel.app'
+    }
 
-# Keywords that suggest a site is NOT a blog (commercial, agency, news, etc.)
-NON_BLOG_KEYWORDS = [
-    'agency', 'consulting', 'solutions', 'services', 'products', 'pricing',
-    'shop', 'store', 'market', 'news', 'media', 'press', 'corp', 'inc',
-    'ltd', 'group', 'holdings', 'careers', 'jobs', 'support', 'help',
-    'status', 'api', 'docs', 'portal', 'login', 'signin', 'signup',
-    'register', 'account', 'dashboard', 'admin', 'billing'
-]
+    # Dangerous file extensions to block
+    DANGEROUS_EXTENSIONS: Set[str] = {
+        '.pdf', '.jpg', '.jpeg', '.png', '.gif', '.svg', '.mp4', '.mp3',
+        '.zip', '.tar', '.gz', '.rar', '.exe', '.dmg', '.iso', '.bin',
+        '.css', '.js', '.json', '.xml', '.csv', '.txt', '.doc', '.docx',
+        '.xls', '.xlsx', '.ppt', '.pptx'
+    }
 
-# Domains to skip (not blogs)
-SKIP_DOMAINS = {
-    'twitter.com', 'x.com', 'facebook.com', 'linkedin.com', 
-    'youtube.com', 'github.com', 'arxiv.org', 'wikipedia.org',
-    'doi.org', 'jstor.org', 'researchgate.net', 'scholar.google.com',
-    'amazon.com', 'reddit.com', 'stackoverflow.com', 'google.com',
-    'microsoft.com', 'apple.com', 'cran.r-project.org', 'pypi.org',
-    'imgur.com', 'gstatic.com', 'googleapis.com', 'cloudflare.com',
-    'feedburner.com', 'gravatar.com', 'wp.com'
-}
+    class Config:
+        env_prefix = "RSS_"
 
-# Major sites where if one subdomain fails, blacklist the whole base domain
-# (These are large orgs that won't have random blog subdomains)
-BLACKLIST_BASE_DOMAIN_SITES = {
-    'github.com', 'microsoft.com', 'google.com', 'apple.com',
-    'facebook.com', 'amazon.com', 'youtube.com', 'twitter.com',
-    'linkedin.com', 'reddit.com', 'stackoverflow.com',
-    'wikipedia.org', 'arxiv.org'
-}
+# Instantiate settings
+settings = Settings()
 
 # Dangerous file extensions to block
 DANGEROUS_EXTENSIONS = {

@@ -3,7 +3,7 @@
 Quick test to verify the enhanced crawler features
 """
 import logging
-from discover import RecursiveBlogDiscovery
+from crawler import RecursiveBlogDiscovery
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -27,11 +27,11 @@ def test_enhanced_crawler():
     
     # Check if full content is saved
     for domain, info in results.items():
-        post = info['latest_post']
-        print(f"\nBlog: {info['name']}")
-        print(f"Has full_content: {bool(post.get('full_content'))}")
-        print(f"Has raw_html: {bool(post.get('raw_html'))}")
-        print(f"Full content length: {len(post.get('full_content', ''))} chars")
+        post = info.latest_post
+        print(f"\nBlog: {info.name}")
+        print(f"Has full_content: {bool(post.full_content)}")
+        print(f"Has raw_html: {bool(post.raw_html_content)}")
+        print(f"Full content length: {len(post.full_content or '')} chars")
         break  # Just show first one
     
     crawler.save_results('test_enhanced_results.json')
