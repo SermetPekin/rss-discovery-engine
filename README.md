@@ -90,6 +90,7 @@ Settings are managed in `config.py` and can be overridden by environment variabl
 | `CHECKPOINT_INTERVAL` | 5 | Save state every N blogs |
 
 ## Screenshots
+<img width="1592" height="907" alt="Network visualization" src="https://github.com/user-attachments/assets/6646746b-579c-4d02-9d8f-0957e9d90480" />
 
 <img width="1360" height="932" alt="Network Graph" src="https://github.com/user-attachments/assets/1a0278b7-bd15-4b39-82be-ccf9303e8b2b" />
 
